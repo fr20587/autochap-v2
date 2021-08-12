@@ -5,4 +5,8 @@
 /*  @ Styles from this file will override 'vendors.scss' and Fuse's base styles.
 /* ----------------------------------------------------------------------------------------------------- */
 
+* {
+    text-decoration: none !important;
+}
+
 @import '~swiper/swiper-bundle';

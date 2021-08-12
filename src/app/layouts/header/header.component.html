@@ -1,0 +1,146 @@
+<!-- Header Section Start -->
+<div class="section header-section">
+
+    <!-- Header top Start -->
+    <div class="header-top d-none d-lg-block">
+        <div class="container">
+
+            <!-- Header top Wrapper Start -->
+            <div class="header-top-wrapper">
+
+                <!-- Header top Wrapper Start -->
+                <div class="header-top-info">
+                    <p>Avenida 26 de julio y Linderos, Reparto Abel Santamaría, municipio Boyeros, La Habana.</p>
+                    <p>LLámenos:
+                        <a class="mr-1" href="+5376467210">+53 7 646 7210</a>
+                        <a href="+5376466203">+53 7 646 6203</a>
+                    </p>
+                </div>
+                <!-- Header top Wrapper End -->
+
+                <!-- Header top Wrapper Start -->
+                <div class="header-top-btn">
+                    <a href="login.html">Iniciar Sesión</a>
+                    <a href="register.html">Registrarme</a>
+                </div>
+                <!-- Header top Wrapper End -->
+
+            </div>
+            <!-- Header top Wrapper End -->
+
+        </div>
+    </div>
+    <!-- Header top End -->
+
+    <!-- Header Main Start -->
+    <div class="header-main">
+        <div class="container">
+
+            <!-- Header Main Start -->
+            <div class="flex flex-row justify-between px-5 bg-red-600 rounded-xl">
+
+                <!-- Header Logo Start -->
+                <div class="flex items-center">
+                    <a [routerLink]="['/home']"><img class="w-28" src="assets/images/logo-autochap.png" alt="Logo"></a>
+                </div>
+                <!-- Header Logo End -->
+
+                <!-- Header Menu Start -->
+                <div class="primary-menu d-none d-lg-block">
+                    <ul class="nav-menu">
+                        <li><a [routerLink]="['/home']" routerLinkActive="active">Inicio</a></li>
+                        <li><a [routerLink]="['/services']" routerLinkActive="active">Servicios</a></li>
+                        <li><a [routerLink]="['/gallery']" routerLinkActive="active">Galeria</a></li>
+                        <li><a [routerLink]="['/about']" routerLinkActive="active">Sobre Nosotros</a></li>
+                        <li><a [routerLink]="['/contact']" routerLinkActive="active">Contáctenos</a></li>
+                    </ul>
+                </div>
+                <!-- Header Menu End -->
+
+                <!-- Header Meta Start -->
+                <div class="header-meta">
+
+                    <div class="header-search d-none d-lg-block">
+                        <form action="#">
+                            <input type="text" placeholder="Buscar..">
+                            <button><i class="icofont-search-2"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="header-toggle d-lg-none">
+                        <button class="menu-toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- Header Meta End -->
+
+            </div>
+            <!-- Header Main End -->
+
+        </div>
+    </div>
+    <!-- Header Main End -->
+
+</div>
+<!-- Header Section End -->
+
+<!-- Mobile Menu Start -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+
+        <!-- Header Logo Start -->
+        <div class="flex justify-center mb-5">
+            <a [routerLink]="['/home']"><img class="w-36" src="assets/images/logo-autochap.png" alt="Logo"></a>
+        </div>
+        <!-- Header Logo End -->
+
+        <!-- Header top Info Start -->
+        <div class="header-top-info">
+            <p>Avenida 26 de julio y Linderos, Reparto Abel Santamaría, municipio Boyeros, La Habana.</p>
+            <p>LLámenos:
+                <a class="mr-1" href="+5376467210">+53 7 646 7210</a>
+                <a href="+5376466203">+53 7 646 6203</a>
+            </p>
+        </div>
+        <!-- Header top Info End -->
+
+        <!-- Header top Button Start -->
+        <div class="mt-3 header-top-btn">
+            <a href="login.html">Iniciar Sesión</a>
+            <a href="register.html">Registrarme</a>
+        </div>
+        <!-- Header top Button End -->
+
+        <!-- Header Search Start -->
+        <div class="mt-3 header-search">
+            <form action="#">
+                <input type="text" placeholder="Buscar..">
+                <button><i class="icofont-search-2"></i></button>
+            </form>
+        </div>
+        <!-- Header Search End -->
+
+        <!-- Mobile Menu Start -->
+        <div class="mobile-menu-items">
+            <ul class="nav-menu">
+                <li><a [routerLink]="['/home']" routerLinkActive="active">Inicio</a></li>
+                <li><a [routerLink]="['/services']" routerLinkActive="active">Servicios</a></li>
+                <li><a [routerLink]="['/gallery']" routerLinkActive="active">Galeria</a></li>
+                <li><a [routerLink]="['/about']" routerLinkActive="active">Sobre Nosotros</a></li>
+                <li><a [routerLink]="['/contact']" routerLinkActive="active">Contáctenos</a></li>
+            </ul>
+        </div>
+        <!-- Mobile Menu End -->
+
+    </div>
+</div>
+<!-- Mobile Menu End -->

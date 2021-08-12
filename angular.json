@@ -38,7 +38,7 @@
                             ]
                         },
                         "styles": [
-                            "node_modules/bootstrap/dist/bootstrap.min.css",
+                            "node_modules/bootstrap/dist/css/bootstrap.min.css",
                             "src/@ath/styles/tailwind.scss",
                             "src/@ath/styles/themes.scss",
                             "src/@ath/styles/main.scss",
