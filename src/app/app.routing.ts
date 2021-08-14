@@ -18,8 +18,13 @@ export const appRoutes: Routes = [
             title: 'Inicio'
         },
         children   : [
-            { path: 'home', loadChildren: () => import('./modules/pages/pages.module').then(m => m.PagesModule) },
+            { path: '', loadChildren: () => import('./modules/pages/pages.module').then(m => m.PagesModule) },
         ]
     },
 
+    // Page not found
+    { path: '404', loadChildren: () => import('./modules/pages/error/error.module').then(m => m.ErrorModule) },
+
+    // Redirect page not found path to '/404'
+    { path: '**', redirectTo: '404' }
 ];

@@ -1,0 +1,163 @@
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(assets/images/page-banner-bg.png);">
+    <div class="container">
+        <!-- Page Banner Wrapper Start -->
+        <div class="page-banner-wrapper">
+
+            <!-- Page Banner Content Start -->
+            <div class="page-banner-content">
+
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h5 class="sub-title">Contacto</h5>
+                    <h2 class="main-title">Contacte <br> con nosotros</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="hover:text-warn-500" [routerLink]="'/home'">Inicio</a></li>
+                    <li class="breadcrumb-item text-hint">Información de contacto</li>
+                </ul>
+            </div>
+            <!-- Page Banner Content End -->
+
+            <!-- Page Banner Images Start -->
+            <div class="page-banner-images">
+                <img src="assets/images/page-banner-3.png" alt="Page Banner">
+            </div>
+            <!-- Page Banner Images End -->
+
+        </div>
+        <!-- Page Banner Wrapper End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+
+<!-- Contact Section Start -->
+<div class="py-20 section">
+    <div class="container">
+
+        <!-- Contact Wrapper Start -->
+        <div class="contact-wrapper">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Contact Image Start -->
+                    <div class="contact-image">
+                        <img src="assets/images/gallery/gallery-3.jpg" alt="Contact">
+                    </div>
+                    <!-- Contact Image End -->
+                </div>
+                <div class="col-lg-6">
+                    <!-- Contact Content Start -->
+                    <div class="contact-content">
+                        <h2 class="title">Información de contacto</h2>
+                        <p class="sub-title">Le ofrecemos varias alternativas para hablar con nosotros</p>
+
+                        <div class="content-info">
+                            <div class="row gx-md-5">
+                                <div class="col-md-6">
+                                    <!-- Single Info Start -->
+                                    <div class="single-info">
+                                        <h4 class="info-title">Domicilio</h4>
+                                        <p>Calle 247, No. 24318, entre Avenida 26 de julio y Linderos, Reparto Abel Santamaría, municipio Boyeros, La Habana.</p>
+                                    </div>
+                                    <!-- Single Info End -->
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Single Info Start -->
+                                    <div class="single-info">
+                                        <h4 class="info-title">Teléfonos</h4>
+                                        <p><span class="text-hint">Pizarra</span>: <br>+53 7 646 7210,<br>+53 7 646 6203</p>
+                                        <p><span class="text-hint">Recepción</span>: Ext 101</p>
+                                        <p><span class="text-hint">Secretaría</span>: Ext 102</p>
+                                    </div>
+                                    <!-- Single Info End -->
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Single Info Start -->
+                                    <div class="single-info">
+                                        <h4 class="info-title">Web</h4>
+                                        <p><a href="mailto:oschapt@autochapt.cu">oschapt@autochapt.cu</a></p>
+                                        <p>www.autochap.cu</p>
+                                    </div>
+                                    <!-- Single Info End -->
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Single Info Start -->
+                                    <div class="single-info">
+                                        <h4 class="info-title">Comercial</h4>
+                                        <p>Ext 123 <br>Directo: +53 7 646 8942</p>
+                                        <p>irasema@autochapt.cu</p>
+                                    </div>
+                                    <!-- Single Info End -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Contact Wrapper End -->
+
+    </div>
+</div>
+<!-- Contact Section End -->
+
+<!-- Contact Section End -->
+<div class="pb-20 section">
+    <div class="container">
+
+        <!-- Contact Section End -->
+        <div class="text-center contact-form-wrapper" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="title">Envíenos un mensaje con sus inquietudes</h3>
+
+            <div class="form-wrapper">
+                <form #contactNgForm="ngForm" [formGroup]="contactForm">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- Single Form Start -->
+                            <div class="single-form">
+                                <input type="text" placeholder="Nombre" formControlName="name">
+                            </div>
+                            <!-- Single Form End -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- Single Form Start -->
+                            <div class="single-form">
+                                <input type="email" placeholder="Correo el usuario" formControlName="email">
+                            </div>
+                            <!-- Single Form End -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- Single Form Start -->
+                            <div class="single-form">
+                                <input type="text" placeholder="Teléfono" formControlName="phone">
+                            </div>
+                            <!-- Single Form End -->
+                        </div>
+                        <div class="col-md-12">
+                            <!-- Single Form Start -->
+                            <div class="single-form">
+                                <textarea placeholder="Comentarios..." formControlName="message"></textarea>
+                            </div>
+                            <!-- Single Form End -->
+                        </div>
+                        <p class="form-message"></p>
+                        <div class="col-md-12">
+                            <!-- Single Form Start -->
+                            <div class="single-form">
+                                <button class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">Enviar mensaje</button>
+                            </div>
+                            <!-- Single Form End -->
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <!-- Contact Section End -->
+
+    </div>
+</div>
+<!-- Contact Section End -->

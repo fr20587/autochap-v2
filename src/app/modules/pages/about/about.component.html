@@ -1,0 +1,161 @@
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(assets/images/page-banner-bg.png);">
+    <div class="container">
+        <!-- Page Banner Wrapper Start -->
+        <div class="page-banner-wrapper">
+
+            <!-- Page Banner Content Start -->
+            <div class="page-banner-content">
+
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h5 class="sub-title">¿Quiénes somos?</h5>
+                    <h2 class="main-title">Conozca AUTOCHAP.</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="hover:text-warn-500" [routerLink]="'/home'">Inicio</a></li>
+                    <li class="breadcrumb-item text-hint">Sobre nosotros</li>
+                </ul>
+            </div>
+            <!-- Page Banner Content End -->
+
+            <!-- Page Banner Images Start -->
+            <div class="page-banner-images">
+                <img src="assets/images/page-banner.png" alt="Page Banner">
+            </div>
+            <!-- Page Banner Images End -->
+
+        </div>
+        <!-- Page Banner Wrapper End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+
+<!-- About Section Start -->
+<div class="py-20 section">
+    <div class="container">
+
+        <!-- About Wrapper Start -->
+        <div class="about-wrapper">
+
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-9">
+                    <!-- About Content Start -->
+                    <div class="text-center about-content content-02" data-aos="fade-up" data-aos-delay="200">
+
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h5 class="sub-title">Bienvenido a <strong>AUTOCHAP</strong>.</h5>
+                            <h2 class="main-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, dignissimos quibusdam optio suscipit quae illum esse eum. Quos!</p>
+
+                        <a [routerLink]="'/contact'" class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">Contáctenos</a>
+
+                    </div>
+                    <!-- About Content End -->
+                </div>
+            </div>
+
+            <div class="row justify-content-between">
+                <div class="col-lg-6 col-md-6">
+                    <!-- About Images Start -->
+                    <div class="about-images-2" data-aos="fade-up" data-aos-delay="300">
+                        <img src="assets/images/about/about-4.png" alt="About">
+                    </div>
+                    <!-- About Images End -->
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <!-- About Images Start -->
+                    <div class="about-images-2" data-aos="fade-up" data-aos-delay="500">
+                        <img src="assets/images/about/about-2.png" alt="About">
+                    </div>
+                    <!-- About Images End -->
+                </div>
+            </div>
+
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-8">
+                    <!-- About Count Start -->
+                    <div class="about-count about-count-02">
+                        <!-- About Count Start -->
+                        <div class="single-count">
+                            <span class="count">500+</span>
+                            <p>Clientes</p>
+                        </div>
+                        <!-- About Count End -->
+                        <!-- About Count Start -->
+                        <div class="single-count">
+                            <span class="count">35+</span>
+                            <p>Marcas</p>
+                        </div>
+                        <!-- About Count End -->
+                        <!-- About Count Start -->
+                        <div class="single-count">
+                            <span class="count">22+</span>
+                            <p>Mecánicos</p>
+                        </div>
+                        <!-- About Count End -->
+                        <!-- About Count Start -->
+                        <div class="single-count">
+                            <span class="count">11+</span>
+                            <p>Reconocimientos</p>
+                        </div>
+                        <!-- About Count End -->
+                    </div>
+                    <!-- About Count End -->
+                </div>
+            </div>
+
+        </div>
+        <!-- About Wrapper End -->
+
+    </div>
+</div>
+<!-- About Section End -->
+
+<!-- Our Team Section Start -->
+<div class="pb-20 section">
+    <div class="container">
+
+        <!-- Section Title Start -->
+        <div class="text-center section-title">
+            <h5 class="sub-title">Nuestro equipo</h5>
+            <h2 class="main-title">Puro Talento Mecánico</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio nulla dolor reprehenderit <br>quam, numquam similique temporibus dolores vitae error assumenda.</p>
+        </div>
+        <!-- Section Title End -->
+
+        <!-- Team Wrapper Start -->
+        <div class="team-wrapper">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6" *ngFor="let mechanic of mechanics; trackBy: trackByFn">
+                    <!-- Single Team Start -->
+                    <div class="single-team">
+                        <div class="team-images">
+                            <a [routerLink]=""><img [src]="mechanic.image" alt="Team"></a>
+                        </div>
+                        <div class="team-content">
+                            <div class="content-wrapper">
+                                <h4 class="name"><a class=" hover:text-warn-500" [routerLink]="">{{ mechanic.name }}</a></h4>
+                                <span class="designation">{{ mechanic.speciality }}</span>
+                                <div class="team-meta">
+                                    <p class="meta">Expariencia: <strong>{{ mechanic.experience }}</strong></p>
+                                    <p class="meta">Valoración: <span>{{ mechanic.rating }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Team End -->
+                </div>
+            </div>
+        </div>
+        <!-- Team Wrapper End -->
+
+    </div>
+</div>
+<!-- Our Team Section End -->

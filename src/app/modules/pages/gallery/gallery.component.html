@@ -1,0 +1,62 @@
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(assets/images/page-banner-bg.png);">
+    <div class="container">
+        <!-- Page Banner Wrapper Start -->
+        <div class="page-banner-wrapper">
+
+            <!-- Page Banner Content Start -->
+            <div class="page-banner-content">
+
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h5 class="sub-title">Trabajos</h5>
+                    <h2 class="main-title">Galería de Fotos</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="hover:text-warn-500" [routerLink]="'/home'">Inicio</a></li>
+                    <li class="breadcrumb-item text-hint">Galeria de Fotos</li>
+                </ul>
+            </div>
+            <!-- Page Banner Content End -->
+
+            <!-- Page Banner Images Start -->
+            <div class="page-banner-images">
+                <img src="assets/images/page-banner-3.png" alt="Page Banner">
+            </div>
+            <!-- Page Banner Images End -->
+
+        </div>
+        <!-- Page Banner Wrapper End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+
+<!-- Project Gallery Section Start -->
+<div class="py-20 section">
+    <div class="container">
+
+        <!-- Project Gallery Wrapper Start -->
+        <div class="project-gallery-wrapper">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6" *ngFor="let photo of servicesPhotos; trackBy: trackByFn">
+                    <!-- Single Gallery Start -->
+                    <div class="single-gallery">
+                        <div class="gallery-images">
+                            <a><img [src]="photo.image" alt="Gallery"></a>
+                        </div>
+                        <div class="gallery-content">
+                            <h4 class="title"><a [routerLink]="''">{{ photo.title }}</a></h4>
+                            <span>{{ photo.description }}</span>
+                        </div>
+                    </div>
+                    <!-- Single Gallery End -->
+                </div>
+            </div>
+        </div>
+        <!-- Project Gallery Wrapper End -->
+
+    </div>
+</div>
+<!-- Project Gallery Section End -->

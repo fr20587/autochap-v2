@@ -1,6 +1,9 @@
 // Angular Modules
 import { Component, ViewEncapsulation } from '@angular/core';
 
+/**
+ * Footer Component
+ */
 @Component({
   selector: 'ath-footer',
   templateUrl: './footer.component.html',
