@@ -1,16 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+// Angular Modules
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'ath-pages',
   templateUrl: './pages.component.html',
-  styles: [
-  ]
 })
-export class PagesComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class PagesComponent {
 }

@@ -4,6 +4,10 @@ import { Component, OnInit } from '@angular/core';
 // JQuery
 declare let jQuery: any;
 
+// Service
+import { AuthService } from 'src/app/modules/auth/auth.service';
+
+
 
 @Component({
     selector: 'ath-header',
@@ -12,8 +16,11 @@ declare let jQuery: any;
     ]
 })
 export class HeaderComponent implements OnInit {
+    public isAuthenticated: boolean = false;
 
-    constructor() { }
+    constructor(
+        private _authService: AuthService,
+    ) { }
 
     ngOnInit(): void {
         jQuery(window).on('scroll', () => {
@@ -24,5 +31,6 @@ export class HeaderComponent implements OnInit {
                 jQuery('.header-main').addClass('sticky');
             }
         });
+
     }
 }

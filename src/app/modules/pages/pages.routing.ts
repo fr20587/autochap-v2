@@ -26,6 +26,9 @@ export const pagesRoutes: Route[] = [
             // Contact
             { path: 'contact', loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule) },
 
+            // Profile
+            { path: 'profile', loadChildren: () => import('./profile/user.module').then(m => m.UserModule) },
+
             // Page not found
             { path: '404', loadChildren: () => import('./error/error.module').then(m => m.ErrorModule) },
         ]

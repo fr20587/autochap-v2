@@ -10,7 +10,6 @@ import { GalleryComponent } from './gallery.component';
 import { galleryRoutes } from './gallery.routing';
 
 
-
 @NgModule({
     declarations: [
         GalleryComponent

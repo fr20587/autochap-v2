@@ -4,22 +4,20 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 // Component
-import { AboutComponent } from './about.component';
+import { UserComponent } from './user.component';
 
 // Routes
-import { aboutRoutes } from './about.routing';
-
+import { userRoutes } from './user.routing';
 
 
 @NgModule({
     declarations: [
-        AboutComponent
+        UserComponent
     ],
     imports: [
         CommonModule,
-        RouterModule.forChild(aboutRoutes),
+        RouterModule.forChild(userRoutes),
     ]
 })
-export class AboutModule {
-
+export class UserModule {
 }

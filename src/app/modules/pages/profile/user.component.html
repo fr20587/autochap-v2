@@ -1,0 +1,191 @@
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(assets/images/page-banner-bg.png);">
+    <div class="container">
+        <!-- Page Banner Wrapper Start -->
+        <div class="page-banner-wrapper">
+
+            <!-- Page Banner Content Start -->
+            <div class="page-banner-content">
+
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h5 class="sub-title">Perfil</h5>
+                    <h2 class="main-title">Datos de Usuario</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="hover:text-warn-500" [routerLink]="'/home'">Inicio</a></li>
+                    <li class="breadcrumb-item text-hint">Perfil</li>
+                </ul>
+            </div>
+            <!-- Page Banner Content End -->
+
+            <!-- Page Banner Images Start -->
+            <div class="page-banner-images">
+                <img src="assets/images/page-banner-3.png" alt="Page Banner">
+            </div>
+            <!-- Page Banner Images End -->
+
+        </div>
+        <!-- Page Banner Wrapper End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+
+<!-- My Account Section Start -->
+<div class="section section-padding">
+    <div class="container">
+
+        <!-- My Account Wrapper Start -->
+        <div class="my-account-wrapper">
+
+            <div class="row">
+                <div class="col-xl-3 col-md-4">
+                    <!-- My Account Menu Start -->
+                    <div class="my-account-menu">
+                        <ul class="nav account-menu-list flex-column">
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-order"><i class="fa fa-tachometer"></i> Servicios</a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-account"><i class="fa fa-user"></i> Datos del usuario</a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-password"><i class="fa fa-eye-slash"></i> Contraseña</a>
+                            </li>
+                            <li>
+                                <a (click)="signOut()"><i class="fa fa-sign-out" ></i> Cerrar Sesión</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- My Account Menu End -->
+                </div>
+                <div class="col-xl-9 col-md-8">
+                    <!-- Tab content start -->
+                    <div class="tab-content my-account-tab">
+
+                        <div class="tab-pane fade" id="pills-order">
+                            <!-- My Account Order Start -->
+                            <div class="my-account-order account-wrapper">
+                                <h4 class="account-title">Servicios</h4>
+                                <div class="text-center account-table table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="no">No</th>
+                                                <th class="date">Fecha</th>
+                                                <th class="car">Auto</th>
+                                                <th class="carId">Matrícula</th>
+                                                <th class="name">Servico</th>
+                                                <th class="mechanic">Mecánico</th>
+                                                <th class="status">Estado</th>
+                                                <th class="price">Precio</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr *ngFor="let service of services; let i = index; trackBy: trackByFn">
+                                                <td>{{ i + 1 }}</td>
+                                                <td>{{ service.date }}</td>
+                                                <td>{{ service.car }}</td>
+                                                <td>{{ service.carId }}</td>
+                                                <td>{{ service.name }}</td>
+                                                <td>{{ service.mechanic }}</td>
+                                                <td>{{ service.status }}</td>
+                                                <td>{{ service.price | currency }}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- My Account Order End -->
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-account">
+                            <!-- My Account Details End -->
+                            <div class="my-account-details account-wrapper">
+                                <h4 class="account-title">Información del usuario</h4>
+
+                                <div class="account-details">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <label class="form-label">Nombre</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <label class="form-label">Apellidos</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <label class="form-label">Correo electrónico</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <label class="form-label">Teléfono</label>
+                                                <input type="tel" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <button class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">GUARDAR</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- My Account Details End -->
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-password">
+                            <!-- Change password -->
+                            <div class="my-account-details account-wrapper">
+                                <h4 class="account-title">Contraseña</h4>
+
+                                <div class="account-details">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="single-form">
+                                                <label class="form-label">Contraseña actual</label>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <label class="form-label">Nueva contraseña</label>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <label class="form-label">Confirmar contraseña</label>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-form">
+                                                <button class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">ACTUALIZAR</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Change password End -->
+                        </div>
+                    </div>
+                    <!-- Tab content End -->
+                </div>
+            </div>
+
+        </div>
+        <!-- My Account Wrapper End -->
+
+    </div>
+</div>
+<!-- My Account Section End -->

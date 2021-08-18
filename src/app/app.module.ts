@@ -9,6 +9,7 @@ import { appRoutes } from './app.routing';
 
 // Component
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 const routerConfig: ExtraOptions = {
@@ -24,6 +25,7 @@ const routerConfig: ExtraOptions = {
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(appRoutes, routerConfig),
   ],
   providers: [],

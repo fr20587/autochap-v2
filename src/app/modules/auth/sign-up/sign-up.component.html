@@ -1,0 +1,87 @@
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(assets/images/page-banner-bg.png);">
+    <div class="container">
+        <!-- Page Banner Wrapper Start -->
+        <div class="page-banner-wrapper">
+
+            <!-- Page Banner Content Start -->
+            <div class="page-banner-content">
+
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h5 class="sub-title">Autenticación</h5>
+                    <h2 class="main-title">Registro</h2>
+                </div>
+                <!-- Section Title End -->
+
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="hover:text-warn-500" [routerLink]="'/home'">Inicio</a></li>
+                    <li class="breadcrumb-item text-hint">Registro</li>
+                </ul>
+            </div>
+            <!-- Page Banner Content End -->
+
+            <!-- Page Banner Images Start -->
+            <div class="page-banner-images">
+                <img src="assets/images/page-banner-3.png" alt="Page Banner">
+            </div>
+            <!-- Page Banner Images End -->
+
+        </div>
+        <!-- Page Banner Wrapper End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+
+<!-- Login & Register Section Start -->
+<div class="section section-padding">
+    <div class="container">
+
+        <!-- Register & Login Wrapper Start -->
+        <div class="register-login-wrapper">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-xl-5">
+                    <!-- Register & Login Form Start -->
+                    <div class="register-login-form">
+                        <h3 class="title">Registrarme <span>Ahora</span></h3>
+
+                        <div class="form-wrapper">
+                            <form [formGroup]="signUpForm">
+                                <!-- Single Form Start -->
+                                <div class="single-form">
+                                    <input type="text" placeholder="Nombre" formControlName="name">
+                                </div>
+                                <!-- Single Form End -->
+                                <!-- Single Form Start -->
+                                <div class="single-form">
+                                    <input type="email" placeholder="Correo electrónico" formControlName="email">
+                                </div>
+                                <!-- Single Form End -->
+                                <!-- Single Form Start -->
+                                <div class="single-form">
+                                    <input type="password" placeholder="Contraseña" formControlName="password1">
+                                </div>
+                                <!-- Single Form End -->
+                                <!-- Single Form Start -->
+                                <div class="single-form">
+                                    <input type="password" placeholder="Confirmar contraseña" formControlName="password2">
+                                </div>
+                                <!-- Single Form End -->
+                                <!-- Single Form Start -->
+                                <div class="single-form">
+                                    <button class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg w-100 hover:shadow-2xl">ACEPTAR</button>
+                                </div>
+                                <!-- Single Form End -->
+                                <p>¿Ya tiene cuenta? <a class="hover:text-warn-500" [routerLink]="'/auth/sign-in'">Iniciar Sesión</a></p>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Register & Login Form End -->
+                </div>
+            </div>
+        </div>
+        <!-- Register & Login Wrapper End -->
+
+    </div>
+</div>
+<!-- Login & Register Section End -->
