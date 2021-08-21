@@ -34,19 +34,12 @@
 <!-- Page Banner Section End -->
 
 <!-- Contact Section Start -->
-<div class="py-20 section">
+<div class="py-20 section bg-gray-50">
     <div class="container">
 
         <!-- Contact Wrapper Start -->
         <div class="contact-wrapper">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Contact Image Start -->
-                    <div class="contact-image">
-                        <img src="assets/images/gallery/gallery-3.jpg" alt="Contact">
-                    </div>
-                    <!-- Contact Image End -->
-                </div>
                 <div class="col-lg-6">
                     <!-- Contact Content Start -->
                     <div class="contact-content">
@@ -96,67 +89,61 @@
                     </div>
                     <!-- Contact Content End -->
                 </div>
+
+                <div class="col-lg-6">
+                    <div class="pt-3 contact-content">
+                        <h2 class="title">Envíenos sus inquietudes</h2>
+                        <div class="text-center contact-form-wrapper" data-aos="fade-up" data-aos-delay="300">
+
+                            <div class="form-wrapper">
+                                <form #contactNgForm="ngForm" [formGroup]="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <input type="text" placeholder="Nombre" formControlName="name">
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-4">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <input type="email" placeholder="Correo el usuario" formControlName="email">
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-4">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <input type="text" placeholder="Teléfono" formControlName="phone">
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <div class="col-md-12">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <textarea placeholder="" formControlName="message"></textarea>
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                        <p class="form-message"></p>
+                                        <div class="col-md-12">
+                                            <!-- Single Form Start -->
+                                            <div class="single-form">
+                                                <button class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">Enviar mensaje</button>
+                                            </div>
+                                            <!-- Single Form End -->
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Contact Wrapper End -->
-
-    </div>
-</div>
-<!-- Contact Section End -->
-
-<!-- Contact Section End -->
-<div class="pb-20 section">
-    <div class="container">
-
-        <!-- Contact Section End -->
-        <div class="text-center contact-form-wrapper" data-aos="fade-up" data-aos-delay="300">
-            <h3 class="title">Envíenos un mensaje con sus inquietudes</h3>
-
-            <div class="form-wrapper">
-                <form #contactNgForm="ngForm" [formGroup]="contactForm">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <!-- Single Form Start -->
-                            <div class="single-form">
-                                <input type="text" placeholder="Nombre" formControlName="name">
-                            </div>
-                            <!-- Single Form End -->
-                        </div>
-                        <div class="col-md-4">
-                            <!-- Single Form Start -->
-                            <div class="single-form">
-                                <input type="email" placeholder="Correo el usuario" formControlName="email">
-                            </div>
-                            <!-- Single Form End -->
-                        </div>
-                        <div class="col-md-4">
-                            <!-- Single Form Start -->
-                            <div class="single-form">
-                                <input type="text" placeholder="Teléfono" formControlName="phone">
-                            </div>
-                            <!-- Single Form End -->
-                        </div>
-                        <div class="col-md-12">
-                            <!-- Single Form Start -->
-                            <div class="single-form">
-                                <textarea placeholder="Comentarios..." formControlName="message"></textarea>
-                            </div>
-                            <!-- Single Form End -->
-                        </div>
-                        <p class="form-message"></p>
-                        <div class="col-md-12">
-                            <!-- Single Form Start -->
-                            <div class="single-form">
-                                <button class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">Enviar mensaje</button>
-                            </div>
-                            <!-- Single Form End -->
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-        </div>
-        <!-- Contact Section End -->
 
     </div>
 </div>

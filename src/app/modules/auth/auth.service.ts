@@ -17,7 +17,7 @@ import { AuthUtils } from './auth.utils';
 import { IAuthResponse } from './auth.types';
 
 // Variables
-import { environment } from 'src/environments/environment';
+import { environment } from '../../../environments/environment';
 
 // API Url
 const API_URL = environment.API_URL;

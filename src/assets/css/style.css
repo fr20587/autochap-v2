@@ -191,7 +191,7 @@ a:focus {
 
 a:hover {
     text-decoration: none;
-    color: #EC0000;
+    color: #EA110C;
 }
 
 ul,
@@ -392,7 +392,7 @@ textarea:-ms-input-placeholder {
 .section-title .main-title {
     font-size: 52px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1.1;
     margin-top: 20px;
 }
@@ -458,7 +458,7 @@ textarea:-ms-input-placeholder {
 
 .page-pagination .pagination li a.active,
 .page-pagination .pagination li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -854,22 +854,22 @@ select {
 .btn-custom-01 {
     background-color: #ee0f39;
     border-color: #ee0f39;
-    border-bottom: 2px solid #EC0000;
+    border-bottom: 2px solid #EA110C;
     color: #ffffff;
 }
 
 .btn-custom-01:focus,
 .btn-custom-01:active,
 .btn-custom-01:hover {
-    background-color: #EC0000;
-    border-color: #EC0000;
+    background-color: #EA110C;
+    border-color: #EA110C;
     border-bottom-color: #ee0f39;
     color: #ffffff;
 }
 
 .btn-custom-02 {
-    background-color: #EC0000;
-    border-color: #EC0000;
+    background-color: #EA110C;
+    border-color: #EA110C;
     border-bottom: 2px solid #ee0f39;
     color: #ffffff;
 }
@@ -879,21 +879,21 @@ select {
 .btn-custom-02:hover {
     background-color: #ee0f39;
     border-color: #ee0f39;
-    border-bottom-color: #EC0000;
+    border-bottom-color: #EA110C;
     color: #ffffff;
 }
 
 .btn-primary {
-    background-color: #EC0000;
-    border-color: #EC0000;
+    background-color: #EA110C;
+    border-color: #EA110C;
     color: #ffffff;
 }
 
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:hover {
-    background-color: #EC0000;
-    border-color: #EC0000;
+    background-color: #EA110C;
+    border-color: #EA110C;
     color: #ffffff;
 }
 
@@ -1010,8 +1010,8 @@ select {
 }
 
 .btn-hover-primary:hover {
-    background-color: #EC0000;
-    border-color: #EC0000;
+    background-color: #EA110C;
+    border-color: #EA110C;
     color: #ffffff;
 }
 
@@ -1764,7 +1764,7 @@ select {
     font-size: 28px;
     font-weight: 700;
     font-family: "Rajdhani", sans-serif;
-    color: #EC0000;
+    color: #EA110C;
     position: absolute;
     top: 25px;
     left: 35px;
@@ -1836,7 +1836,7 @@ select {
 
 .product-quickview-active .swiper-button-next:hover,
 .product-quickview-active .swiper-button-prev:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -1866,7 +1866,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .product-quickview-content .title {
     font-size: 52px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1;
     margin-top: -3px;
 }
@@ -1992,7 +1992,7 @@ only screen and (max-width: 767px) {
 }
 
 .product-quickview-content .product-label .single-label p span {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .product-quickview-content .product-quantity-action {
@@ -2015,7 +2015,7 @@ only screen and (max-width: 767px) {
     border-radius: 10px;
     margin-right: 15px;
     margin-top: 20px;
-    border-bottom: 2px solid #EC0000;
+    border-bottom: 2px solid #EA110C;
 }
 
 .product-quickview-content .product-quantity button {
@@ -2077,13 +2077,13 @@ only screen and (max-width: 767px) {
     background-color: #c9d9fc;
     border-radius: 50%;
     text-align: center;
-    color: #EC0000;
+    color: #EA110C;
     font-size: 20px;
     border: 0;
 }
 
 .product-quickview-content .product-action li button:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -2159,7 +2159,7 @@ only screen and (max-width: 767px) {
 }
 
 .product-quickview-content .product-categories-tags ul li a:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 
@@ -2175,6 +2175,10 @@ only screen and (max-width: 767px) {
     left: 0;
     width: 100%;
     z-index: 9;
+}
+
+.header-bg {
+    background-color: #EA110C;
 }
 
 
@@ -2302,7 +2306,7 @@ only screen and (max-width: 767px) {
 }
 
 .header-main-wrapper {
-    background-color: #EC0000;
+    background-color: #EA110C;
     border-radius: 10px;
     padding: 0px 30px;
     display: -webkit-box;
@@ -2452,12 +2456,12 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .primary-menu .sub-menu li a.active {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .primary-menu .sub-menu li.active>a,
 .primary-menu .sub-menu li:hover>a {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .primary-menu .sub-menu li .sub-menu {
@@ -2707,7 +2711,7 @@ only screen and (max-width: 767px) {
     color: #ffffff;
     font-size: 12px;
     display: inline-block;
-    background-color: #EC0000;
+    background-color: #EA110C;
 }
 
 .single-cart-item .cart-item-content {
@@ -2778,7 +2782,7 @@ only screen and (max-width: 767px) {
 }
 
 .single-cart-item .cart-item-content .cart-remove:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .header-search {
@@ -2825,7 +2829,7 @@ only screen and (max-width: 767px) {
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (max-width: 767px) {
     .header-search input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]) {
-        border-color: #EC0000;
+        border-color: #EA110C;
         color: #222222;
     }
 }
@@ -2846,7 +2850,7 @@ only screen and (max-width: 767px) {
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (max-width: 767px) {
     .header-search button {
-        color: #EC0000;
+        color: #EA110C;
         right: 20px;
     }
 }
@@ -2875,7 +2879,7 @@ only screen and (max-width: 767px) {
     left: 0;
     width: 100%;
     z-index: 111111;
-    background-color: #EC0000;
+    background-color: #EA110C;
     padding: 0;
 }
 
@@ -3028,7 +3032,17 @@ only screen and (max-width: 767px) {
 .single-slider {
     height: 950px;
     position: relative;
-    background-color: #cee3f3;
+    background-color: #f3cece;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.single-slider {
+    height: 950px;
+    position: relative;
+    background-color: #f3cece;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3050,7 +3064,7 @@ only screen and (max-width: 767px) {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #cee3f3;
+    background-color: #f3cece;
     opacity: 0.97;
     z-index: -1;
 }
@@ -3179,7 +3193,7 @@ only screen and (max-width: 767px) {
 .slider-content .main-title {
     font-size: 60px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1;
     margin-top: 10px;
 }
@@ -3264,7 +3278,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .about-images .exprience p {
     font-weight: 700;
     font-size: 24px;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1.3;
     font-family: "Rajdhani", sans-serif;
 }
@@ -3368,7 +3382,7 @@ only screen and (max-width: 767px) {
     font-size: 40px;
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 0.9;
     white-space: nowrap;
 }
@@ -3383,7 +3397,7 @@ only screen and (max-width: 767px) {
     font-size: 24px;
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1;
     white-space: nowrap;
 }
@@ -3535,7 +3549,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 .single-service .more {
     font-size: 16px;
-    color: #EC0000;
+    color: #EA110C;
     margin-top: 14px;
 }
 
@@ -3553,7 +3567,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .single-service .service-icon .icon-path {
-    fill: #EC0000;
+    fill: #EA110C;
     -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -3584,7 +3598,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 /*----------------------------------------*/
 
 .call-to-action-wrapper {
-    background-color: #EC0000;
+    background-color: #EA110C;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3805,7 +3819,7 @@ only screen and (max-width: 767px) {
     font-size: 40px;
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1;
     position: absolute;
     top: 20px;
@@ -3905,7 +3919,7 @@ only screen and (max-width: 767px) {
 
 .testimonials-items {
     width: 56.5%;
-    background-color: #EC0000;
+    background-color: #EA110C;
     overflow: hidden;
     position: relative;
     padding: 45px 80px;
@@ -4093,14 +4107,14 @@ only screen and (max-width: 767px) {
 
 .single-blog .blog-content .meta li {
     font-size: 14px;
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 15px;
     position: relative;
 }
 
 .single-blog .blog-content .meta li::before {
     content: '|';
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 2px;
 }
 
@@ -4130,7 +4144,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .single-blog .blog-content .title a:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .single-blog .blog-content .more {
@@ -4141,7 +4155,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .single-blog .blog-content .more:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .single-blog:hover .blog-image a img {
@@ -4381,7 +4395,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .single-team .team-content .content-wrapper .team-meta p strong {
-    color: #EC0000;
+    color: #EA110C;
     font-weight: 500;
 }
 
@@ -4421,7 +4435,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .single-team .team-content .content-wrapper .social li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -4476,7 +4490,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .service-details-content .title {
     font-size: 52px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     margin-top: 40px;
     line-height: 1;
 }
@@ -4504,7 +4518,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .service-details-content h4,
 .service-details-content h5,
 .service-details-content h6 {
-    color: #EC0000;
+    color: #EA110C;
     margin-top: 30px;
 }
 
@@ -4660,7 +4674,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .service-price .more {
     font-size: 16px;
-    color: #EC0000;
+    color: #EA110C;
     margin-top: 14px;
 }
 
@@ -4671,7 +4685,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .service-price .price span {
-    color: #EC0000;
+    color: #EA110C;
     -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -4769,7 +4783,7 @@ only screen and (max-width: 767px) {
 .single-gallery .gallery-content .title {
     font-size: 28px;
     font-weight: 600;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1;
 }
 
@@ -4859,7 +4873,7 @@ only screen and (max-width: 767px) {
 .project-details-content h4,
 .project-details-content h5,
 .project-details-content h6 {
-    color: #EC0000;
+    color: #EA110C;
     margin-top: 35px;
     line-height: 1.1;
 }
@@ -4891,7 +4905,7 @@ only screen and (max-width: 767px) {
 }
 
 .project-information {
-    background-color: #EC0000;
+    background-color: #EA110C;
     padding: 80px 60px;
     border-radius: 30px;
     margin-top: 70px;
@@ -5022,7 +5036,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .team-profile-Content .name {
     font-size: 52px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     margin-top: 0px;
     line-height: 1;
 }
@@ -5073,7 +5087,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .team-profile-Content h4,
 .team-profile-Content h5,
 .team-profile-Content h6 {
-    color: #EC0000;
+    color: #EA110C;
     margin-top: 21px;
 }
 
@@ -5103,7 +5117,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 
 .team-profile-Content .profile-info .info p span,
 .team-profile-Content .profile-info .info p a {
-    color: #EC0000;
+    color: #EA110C;
     font-weight: 500;
 }
 
@@ -5132,7 +5146,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 }
 
 .team-profile-Content .profile-info .social li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -5161,7 +5175,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
     font-size: 28px;
     font-weight: 700;
     font-family: "Rajdhani", sans-serif;
-    color: #EC0000;
+    color: #EA110C;
     position: absolute;
     top: 25px;
     left: 35px;
@@ -5226,19 +5240,19 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
     background-color: #c9d9fc;
     border-radius: 50%;
     text-align: center;
-    color: #EC0000;
+    color: #EA110C;
     font-size: 20px;
     border: 0;
 }
 
 .single-product .product-image .product-action li button:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
 .single-product .product-content {
     text-align: center;
-    background-color: #EC0000;
+    background-color: #EA110C;
     padding: 20px 30px;
 }
 
@@ -5304,7 +5318,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
     font-size: 28px;
     font-weight: 700;
     font-family: "Rajdhani", sans-serif;
-    color: #EC0000;
+    color: #EA110C;
     position: absolute;
     top: 25px;
     left: 35px;
@@ -5376,7 +5390,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 
 .product-details-active .swiper-button-next:hover,
 .product-details-active .swiper-button-prev:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -5406,7 +5420,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .product-details-content .title {
     font-size: 52px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1;
     margin-top: -3px;
 }
@@ -5532,7 +5546,7 @@ only screen and (max-width: 767px) {
 }
 
 .product-details-content .product-label .single-label p span {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .product-details-content .product-quantity-action {
@@ -5555,7 +5569,7 @@ only screen and (max-width: 767px) {
     border-radius: 10px;
     margin-right: 15px;
     margin-top: 20px;
-    border-bottom: 2px solid #EC0000;
+    border-bottom: 2px solid #EA110C;
 }
 
 .product-details-content .product-quantity button {
@@ -5617,13 +5631,13 @@ only screen and (max-width: 767px) {
     background-color: #c9d9fc;
     border-radius: 50%;
     text-align: center;
-    color: #EC0000;
+    color: #EA110C;
     font-size: 20px;
     border: 0;
 }
 
 .product-details-content .product-action li button:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -5699,7 +5713,7 @@ only screen and (max-width: 767px) {
 }
 
 .product-details-content .product-categories-tags ul li a:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .product-details-tabs .nav {
@@ -5748,7 +5762,7 @@ only screen and (max-width: 767px) {
 
 .product-details-tabs .nav li button.active,
 .product-details-tabs .nav li button:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .product-details-tabs .tab-content {
@@ -5849,7 +5863,7 @@ only screen and (max-width: 767px) {
 
 .single-review .review-content .date {
     font-size: 14px;
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .single-review .review-content p {
@@ -5892,14 +5906,14 @@ only screen and (max-width: 767px) {
 
 .blog-details-content .meta li {
     font-size: 16px;
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 10px;
     position: relative;
 }
 
 .blog-details-content .meta li::before {
     content: '|';
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 2px;
 }
 
@@ -5993,7 +6007,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #EC0000;
+    background-color: #EA110C;
     opacity: 0.88;
     z-index: -1;
 }
@@ -6129,13 +6143,13 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     background-color: #c9d9fc;
     border-radius: 50%;
     text-align: center;
-    color: #EC0000;
+    color: #EA110C;
     font-size: 16px;
     border: 0;
 }
 
 .blog-details-tags-share .social li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -6249,13 +6263,13 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 }
 
 .blog-details-next-previews a:hover i {
-    background-color: #EC0000;
-    border-color: #EC0000;
+    background-color: #EA110C;
+    border-color: #EA110C;
     color: #ffffff;
 }
 
 .blog-details-next-previews a:hover span {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .blog-details-comment .comment-items {
@@ -6338,14 +6352,14 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 
 .single-comment .comment-content .meta li {
     font-size: 14px;
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 15px;
     position: relative;
 }
 
 .single-comment .comment-content .meta li::before {
     content: '|';
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 2px;
 }
 
@@ -6407,7 +6421,7 @@ only screen and (max-width: 767px) {
 .contact-content .title {
     font-size: 52px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1;
     margin-top: -5px;
 }
@@ -6444,7 +6458,7 @@ only screen and (max-width: 767px) {
 .content-info .single-info .info-title {
     font-size: 28px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .content-info .single-info p {
@@ -6477,13 +6491,13 @@ only screen and (max-width: 767px) {
     background-color: #c9d9fc;
     border-radius: 50%;
     text-align: center;
-    color: #EC0000;
+    color: #EA110C;
     font-size: 16px;
     border: 0;
 }
 
 .content-info .single-info .social li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -6553,7 +6567,7 @@ only screen and (max-width: 767px) {
 }
 
 .register-login-form .title span {
-    color: #EC0000;
+    color: #EA110C;
     position: relative;
 }
 
@@ -6609,7 +6623,7 @@ only screen and (max-width: 767px) {
 .error-wrapper .error-content .sub-title {
     font-size: 52px;
     font-weight: 700;
-    color: #EC0000;
+    color: #EA110C;
     line-height: 1.1;
     margin-top: 10px;
 }
@@ -6666,7 +6680,7 @@ only screen and (max-width: 767px) {
     font-family: "Rajdhani", sans-serif;
     border: 0;
     color: #ffffff;
-    background-color: #EC0000;
+    background-color: #EA110C;
     border-bottom: 1px solid #c9d9fc;
     -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -6817,7 +6831,7 @@ only screen and (max-width: 767px) {
 }
 
 .cart-table .table tbody tr td.Product-info .name a:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .cart-table .table tbody tr td.Product-info .product-prices {
@@ -6867,7 +6881,7 @@ only screen and (max-width: 767px) {
     background-color: #ee0f39;
     overflow: hidden;
     border-radius: 10px;
-    border-bottom: 2px solid #EC0000;
+    border-bottom: 2px solid #EA110C;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -7249,21 +7263,21 @@ only screen and (max-width: 767px) {
 }
 
 .compare-product .compare-remove:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .compare-product .compare-remove:hover::before {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #EC0000;
+    background-color: #EA110C;
 }
 
 .compare-product .compare-remove:hover::after {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #EC0000;
+    background-color: #EA110C;
 }
 
 
@@ -7310,7 +7324,7 @@ only screen and (max-width: 767px) {
 }
 
 .checkout-info .info-header a:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .checkout-info .info-header.error i {
@@ -7350,7 +7364,7 @@ only screen and (max-width: 767px) {
 }
 
 .checkout-info .card-body .forget a:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .checkout-title .title {
@@ -7581,7 +7595,7 @@ only screen and (max-width: 767px) {
 
 .my-account-menu .account-menu-list li a:hover,
 .my-account-menu .account-menu-list li a.active {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -7655,7 +7669,7 @@ only screen and (max-width: 767px) {
 }
 
 .my-account-dashboard .welcome-dashboard p a:hover {
-    color: #EC0000;
+    color: #EA110C;
 }
 
 .my-account-payment p {
@@ -7769,7 +7783,7 @@ only screen and (min-width: 1500px) {
 }
 
 .widget-sidebar .category li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -7809,7 +7823,7 @@ only screen and (min-width: 1500px) {
     right: 0;
     width: 60px;
     height: 60px;
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
     text-align: center;
     line-height: 60px;
@@ -7857,7 +7871,7 @@ only screen and (max-width: 575px) {
     border: 0;
     font-size: 20px;
     color: #ffffff;
-    background-color: #EC0000;
+    background-color: #EA110C;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: absolute;
@@ -7890,7 +7904,7 @@ only screen and (max-width: 575px) {
 }
 
 .widget-sidebar-02 .widget-link .link li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -7924,7 +7938,7 @@ only screen and (max-width: 575px) {
 }
 
 .widget-sidebar-02 .tags li a:hover {
-    background-color: #EC0000;
+    background-color: #EA110C;
     color: #ffffff;
 }
 
@@ -7941,7 +7955,7 @@ only screen and (max-width: 575px) {
 }
 
 .widget-sidebar-02 .widget-price .ui-slider .ui-slider-range {
-    background-color: #EC0000;
+    background-color: #EA110C;
 }
 
 .widget-sidebar-02 .widget-price .ui-slider .ui-slider-handle {
@@ -7949,7 +7963,7 @@ only screen and (max-width: 575px) {
     width: 20px;
     height: 20px;
     border: none;
-    background: #EC0000;
+    background: #EA110C;
     border-radius: 100%;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
@@ -8019,14 +8033,14 @@ only screen and (max-width: 575px) {
 
 .single-post .post-content .date {
     font-size: 14px;
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 15px;
     position: relative;
 }
 
 .single-post .post-content .date::before {
     content: '|';
-    color: #EC0000;
+    color: #EA110C;
     margin-right: 5px;
 }
 
@@ -8154,7 +8168,7 @@ only screen and (max-width: 575px) {
     border: 0;
     background-color: #ffffff;
     font-size: 16px;
-    color: #EC0000;
+    color: #EA110C;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 0;
@@ -8205,7 +8219,7 @@ only screen and (max-width: 767px) {
 /*----------------------------------------*/
 
 .footer-section {
-    background-color: #661212;
+    background-color: #EA110C;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8218,7 +8232,7 @@ only screen and (max-width: 767px) {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #661212;
+    background-color: #EA110C;
     top: 0;
     left: 0;
     opacity: 0.94;
@@ -8226,7 +8240,7 @@ only screen and (max-width: 767px) {
 }
 
 .footer-copyright-section {
-    background-color: #0b3fb3;
+    background-color: #b30b0b;
     padding-bottom: 15px;
 }
 
@@ -8316,7 +8330,7 @@ only screen and (max-width: 767px) {
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
     color: #ffffff;
-    background-color: #EC0000;
+    background-color: #EA110C;
 }
 
 .back-to-top:focus,
