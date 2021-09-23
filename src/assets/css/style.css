@@ -66,7 +66,106 @@
 
 /*-- Google Font --*/
 
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+@font-face {
+    font-family: 'poppins';
+    src: url('./../fonts/poppins/poppins-bold-webfont.woff2') format('woff2'), url('./../fonts/poppins/poppins-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('./../fonts/poppins/poppins-medium-webfont.woff2') format('woff2'), url('./../fonts/poppins/poppins-medium-webfont.woff') format('woff');
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('./../fonts/poppins/poppins-regular-webfont.woff2') format('woff2'), url('./../fonts/poppins/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('./../fonts/poppins/poppins-semibold-webfont.woff2') format('woff2'), url('./../fonts/poppins/poppins-semibold-webfont.woff') format('woff');
+    font-weight: semibold;
+    font-style: semibold;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Black.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-ExtraLight.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Light.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Bold.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Medium.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-ExtraBold.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Regular.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Thin.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-SemiBold.woff2') format('woff2'), url('./../fonts/BigShoulderDisplay/BigShouldersDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /*-- Common Style --*/
 
@@ -83,7 +182,7 @@ body {
     font-size: 16px;
     line-height: 1.67;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
+    font-family: "poppins", sans-serif;
     color: #222222;
     outline: none;
     visibility: visible;
@@ -103,7 +202,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #333333;
     font-weight: 700;
     margin-top: 0;
@@ -357,7 +456,7 @@ textarea:-ms-input-placeholder {
     text-transform: uppercase;
     color: #222222;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-family: "poppins", sans-serif;
     letter-spacing: 2px;
     font-weight: 400;
     position: relative;
@@ -548,7 +647,7 @@ select {
     appearance: none;
     background-position: calc(100% - 25px) 50%;
     background-repeat: no-repeat;
-    font-family: "Roboto", sans-serif;
+    font-family: "poppins", sans-serif;
     width: 100%;
     border: none;
     background-color: #f7f7f7;
@@ -576,7 +675,7 @@ select {
     display: block;
     font-size: 18px;
     font-weight: 600;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #222222;
     margin-bottom: 0;
     margin-right: 5px;
@@ -746,7 +845,7 @@ select {
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 600;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     line-height: 28px;
     padding: 0px 25px;
     height: 50px;
@@ -1763,7 +1862,7 @@ select {
 .product-quickview-image .lable {
     font-size: 28px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #EA110C;
     position: absolute;
     top: 25px;
@@ -2023,7 +2122,7 @@ only screen and (max-width: 767px) {
     border: 0;
     color: #ffffff;
     font-size: 18px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 500;
 }
 
@@ -2044,7 +2143,7 @@ only screen and (max-width: 767px) {
     width: 40px;
     height: 45px;
     font-size: 18px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 500;
     text-align: center;
     color: #ffffff;
@@ -2375,7 +2474,7 @@ only screen and (max-width: 767px) {
 .primary-menu ul li a {
     font-size: 18px;
     font-weight: 600;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #ffffff;
     position: relative;
     display: block;
@@ -2544,7 +2643,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     border-radius: 50%;
     display: inline-block;
     color: #ffffff;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-size: 16px;
     font-weight: 500;
     position: absolute;
@@ -2648,14 +2747,14 @@ only screen and (max-width: 767px) {
     color: #9b9b9b;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 
 .header-meta .meta-dropdown .dropdown-cart .cart-price .price-inline .value {
     font-weight: 600;
     color: #9b9b9b;
     font-size: 16px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 
 .header-meta .meta-dropdown .dropdown-cart .cart-price .cart-total .price-inline .label {
@@ -2746,7 +2845,7 @@ only screen and (max-width: 767px) {
     font-size: 16px;
     font-weight: 700;
     color: #555555;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 
 .single-cart-item .cart-item-content .attributes-content {
@@ -2963,7 +3062,7 @@ only screen and (max-width: 767px) {
     border-bottom: 1px solid rgba(10, 77, 60, 0.15);
     font-size: 15px;
     font-weight: 600;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #333333;
 }
 
@@ -3030,22 +3129,13 @@ only screen and (max-width: 767px) {
 /*----------------------------------------*/
 
 .single-slider {
-    height: 950px;
+    height: 657px;
     position: relative;
-    background-color: #f3cece;
+    /* background-color: #f3cece; */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 1;
-}
-
-.single-slider {
-    height: 950px;
-    position: relative;
-    background-color: #f3cece;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('./../images/autochap/home.jpg');
     z-index: 1;
 }
 
@@ -3064,8 +3154,8 @@ only screen and (max-width: 767px) {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #f3cece;
-    opacity: 0.97;
+    background-color: #1b1b1b;
+    opacity: 0.9;
     z-index: -1;
 }
 
@@ -3161,13 +3251,13 @@ only screen and (max-width: 767px) {
 
 .slider-content .sub-title {
     text-transform: uppercase;
-    color: #222222;
+    color: #F5F5F5;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 400;
     position: relative;
     padding-left: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: "poppins", sans-serif;
 }
 
 @media only screen and (max-width: 575px) {
@@ -3193,7 +3283,7 @@ only screen and (max-width: 767px) {
 .slider-content .main-title {
     font-size: 60px;
     font-weight: 700;
-    color: #EA110C;
+    color: #F5F5F5;
     line-height: 1;
     margin-top: 10px;
 }
@@ -3280,7 +3370,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
     font-size: 24px;
     color: #EA110C;
     line-height: 1.3;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
 }
 
 @media only screen and (max-width: 575px) {
@@ -3380,7 +3470,7 @@ only screen and (max-width: 767px) {
 .about-count .single-count .count {
     display: block;
     font-size: 40px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
     color: #EA110C;
     line-height: 0.9;
@@ -3395,7 +3485,7 @@ only screen and (max-width: 767px) {
 
 .about-count .single-count p {
     font-size: 24px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 400;
     color: #EA110C;
     line-height: 1;
@@ -3689,6 +3779,7 @@ only screen and (max-width: 767px) {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url('./../images/autochap/servicios/servicios');
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -3817,7 +3908,7 @@ only screen and (max-width: 767px) {
 
 .single-work .number {
     font-size: 40px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
     color: #EA110C;
     line-height: 1;
@@ -3979,7 +4070,7 @@ only screen and (max-width: 767px) {
 
 .single-testimonials .name {
     font-size: 28px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
     color: #ffffff;
     margin-top: 18px;
@@ -4182,6 +4273,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-image: url('./../images/page-banner-bg.png');
     padding-top: 280px;
     padding-bottom: 120px;
     position: relative;
@@ -4215,7 +4307,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #f3cece;
+    background-color: #1b1b1b;
     opacity: 0.92;
     z-index: -1;
 }
@@ -4691,7 +4783,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     font-size: 60px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     line-height: 1;
 }
 
@@ -5174,7 +5266,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .single-product .product-image .lable {
     font-size: 28px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #EA110C;
     position: absolute;
     top: 25px;
@@ -5317,7 +5409,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .product-details-image .lable {
     font-size: 28px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #EA110C;
     position: absolute;
     top: 25px;
@@ -5577,7 +5669,7 @@ only screen and (max-width: 767px) {
     border: 0;
     color: #ffffff;
     font-size: 18px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 500;
 }
 
@@ -5598,7 +5690,7 @@ only screen and (max-width: 767px) {
     width: 40px;
     height: 45px;
     font-size: 18px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 500;
     text-align: center;
     color: #ffffff;
@@ -5744,7 +5836,7 @@ only screen and (max-width: 767px) {
 .product-details-tabs .nav li button {
     font-size: 28px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     line-height: 1;
     background: none;
     color: #222222;
@@ -6244,7 +6336,7 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 .blog-details-next-previews a span {
     font-size: 18px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     color: #333333;
     line-height: 1.3;
     -webkit-box-flex: 1;
@@ -6677,7 +6769,7 @@ only screen and (max-width: 767px) {
     padding-right: 55px;
     font-size: 24px;
     font-weight: 500;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     border: 0;
     color: #ffffff;
     background-color: #EA110C;
@@ -6777,7 +6869,7 @@ only screen and (max-width: 767px) {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     white-space: nowrap;
     color: #343a40;
 }
@@ -6893,7 +6985,7 @@ only screen and (max-width: 767px) {
     border: 0;
     color: #ffffff;
     font-size: 18px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 500;
 }
 
@@ -6914,7 +7006,7 @@ only screen and (max-width: 767px) {
     width: 40px;
     height: 45px;
     font-size: 18px;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 500;
     text-align: center;
     color: #ffffff;
@@ -7118,7 +7210,7 @@ only screen and (max-width: 767px) {
 .compare-product .pack-product-container .desc-box .product-name {
     font-size: 16px;
     font-weight: 600;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     display: block;
     white-space: nowrap;
     overflow: hidden;
@@ -7778,7 +7870,7 @@ only screen and (min-width: 1500px) {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     padding: 0 20px;
 }
 
@@ -7807,7 +7899,7 @@ only screen and (min-width: 1500px) {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
-    font-family: "Rajdhani", sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     position: relative;
     padding: 0 20px;
     overflow: hidden;
@@ -8219,7 +8311,7 @@ only screen and (max-width: 767px) {
 /*----------------------------------------*/
 
 .footer-section {
-    background-color: #EA110C;
+    background-color: #1b1b1b;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8232,15 +8324,15 @@ only screen and (max-width: 767px) {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #EA110C;
+    background-color: #c5c5c5;
     top: 0;
     left: 0;
-    opacity: 0.94;
+    opacity: 0.9;
     z-index: -1;
 }
 
 .footer-copyright-section {
-    background-color: #b30b0b;
+    background-color: #1b1b1b;
     padding-bottom: 15px;
 }
 

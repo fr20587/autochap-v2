@@ -2,8 +2,14 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
 import { FormBuilder, FormGroup, NgForm, Validators } from '@angular/forms';
 
+
+
 /**
  * Contact Component
+ *
+ * @export
+ * @class ContactComponent
+ * @implements {OnInit}
  */
 @Component({
     selector: 'ath-contact',
@@ -16,6 +22,18 @@ export class ContactComponent implements OnInit {
     @ViewChild('contactNgForm') public contactNgForm!: NgForm;
 
     public contactForm!: FormGroup;
+    public mapOptions: google.maps.MapOptions = {
+        center: { lat: 23.010238, lng: -82.414232 },
+        zoom: 13.5,
+        disableDefaultUI: true,
+        zoomControl: false,
+        mapTypeControl: false,
+        streetViewControl: false,
+        fullscreenControl: false
+    };
+    public marker = {
+        position: { lat: 23.010238, lng: -82.414232 },
+    };
 
     /**
      * Consturctor
@@ -24,7 +42,10 @@ export class ContactComponent implements OnInit {
      */
     constructor(
         private _fb: FormBuilder,
-    ) { }
+    ) {
+
+    }
+
 
     // -----------------------------------------------------------------------------------------------------
     // @ Lifecycle hooks
@@ -34,6 +55,8 @@ export class ContactComponent implements OnInit {
      * On init
      */
     ngOnInit(): void {
+
+
         this.contactForm = this._fb.group({
             name: ['', [Validators.required]],
             email: ['', [Validators.required, Validators.email]],

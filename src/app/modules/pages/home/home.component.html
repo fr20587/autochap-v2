@@ -1,36 +1,30 @@
 <!-- Slider Section Start -->
-<div class="section slider-section">
+<div class="section slider-section ">
 
     <!-- Slider Section Start -->
-    <div class="single-slider" style="background-image: url(assets/images/slider/slider-bg.jpg);">
-        <div class="container">
+    <div class="single-slider min-h-200">
+        <div class="container flex flex-row justify-between flex-auto ">
 
             <!-- Slider Section Start -->
-            <div class="slider-content">
+            <div class="slider-content ">
                 <h5 class="sub-title"> un taller para todos los modelos </h5>
                 <h2 class="main-title">¿Necesita dar mantenimiento o reparar su auto?</h2>
-                <p>Un mantenimiento periódico evita roturas extremandamente dolorosas. No hay nada mejor que confiar en la seguridad del vehículo.</p>
-                <a [routerLink]="'/contact'" class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">Contáctenos</a>
+                <p class="text-white">Un mantenimiento periódico evita roturas extremandamente dolorosas. No hay nada mejor que confiar en la seguridad del vehículo.</p>
+                <a [routerLink]="'/contact'" class="px-5 py-3 mt-5 font-semibold text-white uppercase bg-red-900 rounded-md hover:shadow-2xl hover:bg-red-700">Contáctenos</a>
             </div>
             <!-- Slider Section End -->
 
+
+
+            <!-- Slider Images Start -->
+            <div class="slider-images">
+                <div class="absolute pt-0 image w-160 top-60">
+                    <img src="assets/images/autochap/home-2c.png" alt="Slider">
+                </div>
+            </div>
+            <!-- Slider Images End -->
         </div>
 
-        <!-- Slider Images Start -->
-        <div class="slider-images">
-            <div class="image">
-                <img src="assets/images/slider/slider-2.png" alt="Slider">
-            </div>
-        </div>
-        <!-- Slider Images End -->
-
-        <!-- Slider Images Start -->
-        <div class="slider-images-02">
-            <div class="image">
-                <img src="assets/images/slider/slider-1.png" alt="Slider">
-            </div>
-        </div>
-        <!-- Slider Images End -->
     </div>
     <!-- Slider Section End -->
 
@@ -48,10 +42,7 @@
                     <!-- About Images Start -->
                     <div class="about-images">
                         <div class="images">
-                            <img src="assets/images/about/about.png" alt="About">
-                        </div>
-                        <div class="exprience">
-                            <p><strong>7</strong> años Experiencia</p>
+                            <img src="assets/images/autochap/servicios/17.jpg" alt="About">
                         </div>
                     </div>
                     <!-- About Images End -->
@@ -75,7 +66,7 @@
                         <div class="about-count">
                             <!-- About Count Start -->
                             <div class="single-count">
-                                <span class="count">50+</span>
+                                <span class="count">+400</span>
                                 <p>Clientes</p>
                             </div>
                             <!-- About Count End -->
@@ -93,8 +84,6 @@
                             <!-- About Count End -->
                         </div>
                         <!-- About Count End -->
-
-                        <a [routerLink]="'/contact'" class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 border-blue-200 rounded-lg hover:shadow-2xl">Obtener un turno</a>
 
                     </div>
                     <!-- About Content End -->
@@ -115,7 +104,7 @@
             <!-- <img class="absolute right-0 w-60 -top-36" src="assets/images/services.png" alt="Service"> -->
 
             <!-- Section Title Start -->
-            <div class="text-center section-title pt-20">
+            <div class="pt-20 text-center section-title">
                 <h5 class="sub-title">¿Qué hacemos?</h5>
                 <h2 class="main-title">Algunos de<br>nuestros servicios</h2>
             </div>
@@ -565,7 +554,7 @@
 <!-- Service Section End -->
 
 <!-- Call to Action Section Start -->
-<div class="section py-20 bg-gray-50">
+<div class="py-20 section bg-gray-50">
     <div class="container">
 
         <!-- Call to Action Wrapper Start -->
@@ -581,14 +570,16 @@
                     </div>
                     <!-- Section Title End -->
                     <p class="text-white">No importa donde esté, llamenos y acudiremos a su auxilio</p>
-                    <a [routerLink]="'contact'" class="px-5 py-3 m-5 font-semibold text-gray-700 uppercase bg-blue-200 border-b-2 rounded-lg cursor-pointer hover:shadow-2xl">LLámenos</a>
+                    <a [routerLink]="'contact'" class="px-5 py-3 mt-5 font-semibold text-white uppercase bg-red-900 rounded-lg hover:shadow-2xl hover:bg-red-700">LLámenos</a>
                 </div>
-                <img class="shape" src="assets/images/call-to-action.png" alt="Call to Action">
             </div>
             <!-- Call to Action Content End -->
 
             <!-- Call to Action Images Start -->
-            <div class="call-to-action-images" style="background-image: url(assets/images/autochap/19.jpg);"></div>
+            <div class="call-to-action-images">
+                <img class="shape" src="assets/images/autochap/servicios/escatolina-2.jpg" alt="Escatolina" />
+
+            </div>
             <!-- Call to Action Images End -->
 
         </div>
@@ -698,7 +689,7 @@
 <!-- Why Choose Section End -->
 
 <!-- How We Work Section Start -->
-<div class="section py-20 bg-gray-50">
+<div class="py-20 section bg-gray-50">
     <div class="container">
 
         <!-- Section Title Start -->

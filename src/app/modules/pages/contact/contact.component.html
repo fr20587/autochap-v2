@@ -1,5 +1,5 @@
 <!-- Page Banner Section Start -->
-<div class="section page-banner-section" style="background-image: url(assets/images/page-banner-bg.png);">
+<div class="section page-banner-section" style="">
     <div class="container">
         <!-- Page Banner Wrapper Start -->
         <div class="page-banner-wrapper">
@@ -9,14 +9,14 @@
 
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h5 class="sub-title">Contacto</h5>
-                    <h2 class="main-title">Contacte <br> con nosotros</h2>
+                    <h5 class="text-white sub-title">Contacto</h5>
+                    <h2 class="text-white main-title">Contacte <br> con nosotros</h2>
                 </div>
                 <!-- Section Title End -->
 
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="hover:text-warn-500" [routerLink]="'/home'">Inicio</a></li>
-                    <li class="breadcrumb-item text-hint">Información de contacto</li>
+                    <li class="breadcrumb-item"><a class="text-white hover:text-warn-500" [routerLink]="'/home'">Inicio</a></li>
+                    <li class="text-white breadcrumb-item">Información de contacto</li>
                 </ul>
             </div>
             <!-- Page Banner Content End -->
@@ -39,12 +39,12 @@
 
         <!-- Contact Wrapper Start -->
         <div class="contact-wrapper">
-            <div class="row align-items-center">
+            <div class="flex flex-col items-start sm:flex-row">
                 <div class="col-lg-6">
                     <!-- Contact Content Start -->
                     <div class="contact-content">
                         <h2 class="title">Información de contacto</h2>
-                        <p class="sub-title">Le ofrecemos varias alternativas para hablar con nosotros</p>
+                        <!-- <p class="sub-title">Le ofrecemos varias alternativas para hablar con nosotros</p> -->
 
                         <div class="content-info">
                             <div class="row gx-md-5">
@@ -91,54 +91,59 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="pt-3 contact-content">
-                        <h2 class="title">Envíenos sus inquietudes</h2>
-                        <div class="text-center contact-form-wrapper" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-content">
+                        <h2 class="mb-5 title">Encuéntrenos en Google Maps</h2>
 
-                            <div class="form-wrapper">
+
+                        <!-- <div class="form-wrapper">
                                 <form #contactNgForm="ngForm" [formGroup]="contactForm">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <!-- Single Form Start -->
+
                                             <div class="single-form">
                                                 <input type="text" placeholder="Nombre" formControlName="name">
                                             </div>
-                                            <!-- Single Form End -->
+
                                         </div>
                                         <div class="col-md-4">
-                                            <!-- Single Form Start -->
+
                                             <div class="single-form">
                                                 <input type="email" placeholder="Correo el usuario" formControlName="email">
                                             </div>
-                                            <!-- Single Form End -->
+
                                         </div>
                                         <div class="col-md-4">
-                                            <!-- Single Form Start -->
+
                                             <div class="single-form">
                                                 <input type="text" placeholder="Teléfono" formControlName="phone">
                                             </div>
-                                            <!-- Single Form End -->
+
                                         </div>
                                         <div class="col-md-12">
-                                            <!-- Single Form Start -->
+
                                             <div class="single-form">
                                                 <textarea placeholder="" formControlName="message"></textarea>
                                             </div>
-                                            <!-- Single Form End -->
+
                                         </div>
                                         <p class="form-message"></p>
                                         <div class="col-md-12">
-                                            <!-- Single Form Start -->
+
                                             <div class="single-form">
                                                 <button class="px-5 py-3 m-5 font-semibold text-white uppercase bg-red-700 border-b-2 rounded-lg hover:shadow-2xl">Enviar mensaje</button>
                                             </div>
-                                            <!-- Single Form End -->
+
                                         </div>
                                     </div>
                                 </form>
-                            </div>
+                            </div> -->
 
+                        <div class="flex justify-start p-5 rounded-xl">
+                            <google-map [width]="525" [height]="320" [options]="mapOptions">
+                                <map-marker [position]="marker.position"></map-marker>
+                            </google-map>
                         </div>
+
                     </div>
                 </div>
             </div>

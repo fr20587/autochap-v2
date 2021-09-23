@@ -9,20 +9,16 @@
             <div class="header-top-wrapper">
 
                 <!-- Header top Wrapper Start -->
-                <div class="header-top-info">
-                    <p>Avenida 26 de julio y Linderos, Reparto Abel Santamaría, municipio Boyeros, La Habana.</p>
-                    <p>LLámenos:
-                        <a class="mr-1" href="+5376467210">+53 7 646 7210</a>
-                        <a href="+5376466203">+53 7 646 6203</a>
-                    </p>
-                </div>
-                <!-- Header top Wrapper End -->
-
-                <!-- Header top Wrapper Start -->
-                <div class="header-top-btn">
-                    <a class="hover:text-warn-700" [routerLink]="'/auth/sign-in'">Iniciar Sesión</a>
-                    <a class="hover:text-warn-700" [routerLink]="'/auth/sign-up'">Registrarme</a>
-                    <a class="hover:text-warn-700" [routerLink]="'/profile'">Mi Perfil</a>
+                <div class="flex flex-row justify-between flex-auto">
+                    <div>
+                        <p class="text-white">Avenida 26 de julio y Linderos, Reparto Abel Santamaría, municipio Boyeros, La Habana.</p>
+                    </div>
+                    <div>
+                        <p class="text-white">LLámenos:
+                            <a class="mr-1 text-white hover:text-red-500" href="+5376467210">+53 7 646 7210</a>
+                            <a class="text-white hover:text-red-500" href="+5376466203">+53 7 646 6203</a>
+                        </p>
+                    </div>
                 </div>
                 <!-- Header top Wrapper End -->
 
@@ -38,7 +34,7 @@
         <div class="container">
 
             <!-- Header Main Start -->
-            <div class="flex flex-row justify-between px-5 header-bg rounded-xl">
+            <div class="flex flex-row justify-between px-5 rounded-md header-bg">
 
                 <!-- Header Logo Start -->
                 <div class="flex items-center">
@@ -61,12 +57,12 @@
                 <!-- Header Meta Start -->
                 <div class="header-meta">
 
-                    <div class="header-search d-none d-lg-block">
+                    <!-- <div class="header-search d-none d-lg-block">
                         <form action="#">
                             <input type="text" placeholder="Buscar..">
                             <button><i class="icofont-search-2"></i></button>
                         </form>
-                    </div>
+                    </div> -->
 
                     <div class="header-toggle d-lg-none">
                         <button class="menu-toggle" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
