@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
         { image: 'assets/images/autochap/logos/micons-logo.png' },
         { image: 'assets/images/autochap/logos/mcv-logo.png' },
         { image: 'assets/images/autochap/logos/minint-logo.png' },
-        { image: 'assets/images/autochap/logos/minsap-logo.png' },
+        { image: 'assets/images/autochap/logos/minsap-logo.jpg' },
         { image: 'assets/images/autochap/logos/rex-logo.svg' },
         { image: 'assets/images/autochap/logos/taxis-cuba-logo.png' },
         { image: 'assets/images/autochap/logos/transtur-logo.svg' },

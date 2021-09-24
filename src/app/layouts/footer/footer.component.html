@@ -1,98 +1,59 @@
-<!-- Footer Section Start -->
-<div class="section footer-section" style="background-image: url(assets/images/footer-bg.jpg);">
+<div class="section footer">
+    <div class="container">
+        <div class="flex flex-col">
+            <div class="flex flex-col justify-between w-full gap-10 py-10 md:flex-row">
 
-    <!-- Footer Widget Start -->
-    <div class="py-10 footer-widget-section">
-        <div class="container">
 
-            <!-- Footer Widget Wrapper Start -->
-            <div class="footer-widget-wrapper">
-                <div class="row">
-                    <div class="flex items-center col order-lg-1">
-
-                        <!-- Footer Widget Start -->
-                        <div class="footer-widget">
-                            <div class="flex flex-row items-center justify-center">
-                                <a class="flex flex-row justify-center w-60" [routerLink]="'/home'">
-                                    <img src="assets/images/autochap/logo-2.png" alt="Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Footer Widget End -->
-
-                    </div>
-
-                    <div class="col order-lg-1">
-
-                        <!-- Footer Widget Start -->
-                        <div class="footer-widget">
-                            <div class="widget-info">
-                                <h3 class="font-bold text-red-500 footer-widget-title">Información de contacto</h3>
-                                <p class="text-gray-900"><span>Pizarra</span>: +53 7 646 7210, +53 7 646 6203</p>
-                                <p class="text-gray-900"><span>Recepción</span>: Ext 101</p>
-                                <p class="text-gray-900"><span>Secretaría</span>: Ext 102</p>
-                                <p class="text-gray-900"><span>Correo electrónico</span>: oschapt@autochapt.cu</p>
-                                <p class="text-gray-900"><span>Comercial</span>: Ext 123, Directo: +53 7 646 8942</p>
-                                <p class="text-gray-900"><span>Correo electrónico</span>: irasema@autochapt.cu</p>
-                            </div>
-                        </div>
-                        <!-- Footer Widget End -->
-
-                    </div>
-
-                    <div class="col order-md-2 order-lg-3">
-
-                        <!-- Footer Widget Start -->
-                        <div class="footer-widget" data-aos="fade-up" data-aos-delay="400">
-                            <h3 class="font-bold text-red-500 footer-widget-title">¿Dónde estamos?</h3>
-
-                            <div>
-                                <p class="text-gray-900">Calle 247, No. 24318, entre Avenida 26 de julio y Linderos, Reparto Abel Santamaría, municipio Boyeros, La Habana.</p>
-                            </div>
-
-                            <div class="widget-opening">
-                                <h3 class="font-bold text-red-500 footer-widget-title">Horario</h3>
-
-                                <p class="text-gray-900">Lunes a Viernes <i class="fa fa-long-arrow-right"></i> 9.30 am a 5.30 pm</p>
-                                <p class="text-gray-900">Sábados <i class="fa fa-long-arrow-right"></i> 9.30 am to 2.00 pm</p>
-                                <p class="text-gray-900">Domingos <i class="fa fa-long-arrow-right"></i> Cerrados</p>
-                            </div>
-                        </div>
-                        <!-- Footer Widget End -->
-
-                    </div>
-                </div>
-            </div>
-            <!-- Footer Widget Wrapper End -->
-
-        </div>
-    </div>
-    <!-- Footer Widget End -->
-
-    <!-- Footer Copyright End -->
-    <div class="footer-copyright-section ">
-        <div class="container">
-
-            <!-- Copyright Wrapper Start -->
-            <div class="flex justify-center copyright-wrapper">
-
-                <div class="copyright-text">
-                    <p>&copy; {{ year }} <span>CNA AUTOCHAP </span> - Hecho con <i class="icofont-heart-alt"></i> por <a class="hover:text-teal-200" href="https://athendat.github.io">ATHENDAT</a></p>
+                <div class="flex flex-col items-center justify-center w-full md:w-1/4">
+                    <a class="flex flex-row justify-center w-60" [routerLink]="'/home'">
+                        <img src="assets/images/logo-autochap.png" alt="Logo">
+                    </a>
                 </div>
 
-                <!-- <div class="copyright-social">
-                    <a href="#"><i class="fa fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                </div> -->
+                <div class="flex flex-col w-full md:w-1/4">
+                    <h3 class="py-3 text-2xl font-bold text-red-600">Información de contacto</h3>
+                    <p class="text-gray-300"><span>Pizarra</span>: +53 7 646 7210, +53 7 646 6203</p>
+                    <p class="text-gray-300"><span>Recepción</span>: Ext 101</p>
+                    <p class="text-gray-300"><span>Secretaría</span>: Ext 102</p>
+                    <p class="text-gray-300"><span>Correo electrónico</span>: oschapt@autochapt.cu</p>
+                    <p class="text-gray-300"><span>Comercial</span>: Ext 123, Directo: +53 7 646 8942</p>
+                    <p class="text-gray-300"><span>Correo electrónico</span>: irasema@autochapt.cu</p>
+                </div>
+
+                <div class="flex flex-col w-full md:w-1/4">
+                    <h3 class="py-3 text-2xl font-bold text-red-600">Páginas</h3>
+                    <a class="text-gray-300">Inicio</a>
+                    <a class="text-gray-300">Servicios</a>
+                    <a class="text-gray-300">Galería</a>
+                    <a class="text-gray-300">Sobre nosotros</a>
+                    <a class="text-gray-300">Contáctenos</a>
+                </div>
+
+                <div class="flex flex-col w-full md:w-1/4">
+
+                    <h3 class="py-3 text-2xl font-bold text-red-600">¿Dónde estamos?</h3>
+
+                    <div>
+                        <p class="text-gray-300">Calle 247, No. 24318, entre Avenida 26 de julio y Linderos, Reparto Abel Santamaría, municipio Boyeros, La Habana.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="py-3 text-2xl font-bold text-red-600">Horario</h3>
+
+                        <p class="text-gray-300">Lunes a Viernes <i class="fa fa-long-arrow-right"></i> 9.30 am a 5.30 pm</p>
+                        <p class="text-gray-300">Sábados <i class="fa fa-long-arrow-right"></i> 9.30 am to 2.00 pm</p>
+                        <p class="text-gray-300">Domingos <i class="fa fa-long-arrow-right"></i> Cerrados</p>
+                    </div>
+
+                </div>
 
             </div>
-            <!-- Copyright Wrapper End -->
 
+            <div class="flex justify-center border-t border-gray-300">
+                <div class="py-10">
+                    <p class="text-gray-300">&copy; {{ year }} <span>CNA AUTOCHAP </span> - Hecho con <i class="text-red-400 icofont-heart-alt"></i> por <a class="hover:text-teal-700" href="https://athendat.github.io">ATHENDAT</a></p>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Footer Copyright End -->
-
 </div>
-<!-- Footer Section End -->

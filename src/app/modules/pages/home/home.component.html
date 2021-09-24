@@ -1,23 +1,25 @@
 <!-- Slider Section Start -->
-<div class="section slider-section ">
+<div class="section slider-section">
 
     <!-- Slider Section Start -->
     <div class="single-slider min-h-200">
-        <div class="container flex flex-row justify-between flex-auto ">
+        <div class="container flex flex-col justify-center flex-auto md:justify-between lg:flex-row">
 
             <!-- Slider Section Start -->
-            <div class="slider-content ">
-                <h2 class="main-title">¿Necesita dar mantenimiento o reparar su auto?</h2>
-                <p class="text-white">Un mantenimiento periódico evita roturas extremandamente dolorosas. No hay nada mejor que confiar en la seguridad del vehículo.</p>
-                <a [routerLink]="'/contact'" class="px-5 py-3 mt-5 font-semibold text-gray-900 uppercase bg-white rounded-md hover:shadow-2xl hover:text-white hover:bg-red-700">Contáctenos</a>
+            <div class="flex flex-col flex-wrap justify-center w-full lg:w-1/2 lg:justify-start slider-content">
+                <h2 class="min-w-full text-center main-title lg:text-left">¿Necesita dar mantenimiento o reparar su auto?</h2>
+                <p class="min-w-full font-light text-center text-white lg:text-left">Un mantenimiento periódico evita roturas extremandamente dolorosas. No hay nada mejor que confiar en la seguridad del vehículo.</p>
+                <div class="text-center lg:text-left">
+                    <a [routerLink]="'/contact'" class="w-40 px-5 py-3 mt-5 font-semibold text-center text-gray-900 uppercase bg-white rounded-md hover:shadow-2xl hover:text-white hover:bg-red-700">Contáctenos</a>
+                </div>
             </div>
             <!-- Slider Section End -->
 
 
 
             <!-- Slider Images Start -->
-            <div class="slider-images">
-                <div class="absolute pt-0 image w-160 top-60">
+            <div class="flex-col hidden w-1/2 lg:block">
+                <div class="absolute w-full pt-0 image max-w-160 top-60">
                     <img src="assets/images/autochap/home-2c.png" alt="Slider">
                 </div>
             </div>
@@ -36,17 +38,18 @@
 
         <!-- About Wrapper Start -->
         <div class="about-wrapper">
-            <div class="row align-items-end">
-                <div class="col-lg-6">
-                    <!-- About Images Start -->
+            <div class="flex flex-col justify-center w-full gap-10 lg:justify-between sm:flex-row">
+                <div class="hidden lg:w-1/2 lg:block">
+
                     <div class="about-images">
                         <div class="images">
                             <img src="assets/images/autochap/servicios/17.jpg" alt="About">
                         </div>
                     </div>
-                    <!-- About Images End -->
+
                 </div>
-                <div class="col-lg-6">
+
+                <div class="w-full lg:w-1/2">
                     <!-- About Content Start -->
                     <div class="about-content">
 
@@ -95,11 +98,9 @@
 <!-- About Section End -->
 
 <!-- Service Section Start -->
-<div class="pb-20 section ">
+<div class="pb-20 section">
     <div class="container">
-        <div class="position-relative">
-
-            <!-- <img class="absolute right-0 w-60 -top-36" src="assets/images/services.png" alt="Service"> -->
+        <div class="flex flex-col">
 
             <!-- Section Title Start -->
             <div class="pt-20 text-center section-title">
@@ -108,44 +109,44 @@
             </div>
             <!-- Section Title End -->
 
-            <div class="flex flex-row flex-wrap justify-around w-full gap-2 my-10">
+            <div class="flex flex-col flex-wrap justify-center w-full gap-10 my-10 sm:flex-row">
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 1</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Autos ligeros</h1>
                 </div>
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 2</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Autos de lujo</h1>
                 </div>
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 3</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Omnibus</h1>
                 </div>
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 4</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Camiones</h1>
                 </div>
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 5</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Tapicería</h1>
                 </div>
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 6</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Mecánica</h1>
                 </div>
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 7</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Mercedes Benz</h1>
                 </div>
 
-                <div class="z-10 w-1/5 my-4 bg-gray-100 rounded-md cursor-pointer h-150 hover:shadow-md">
+                <div class="z-10 my-4 bg-gray-100 rounded-md cursor-pointer w-60 h-150 hover:shadow-md">
                     <h1 class="p-3 text-5xl font-semibold text-red-600">Brigada 8</h1>
                     <h1 class="p-3 text-2xl font-bold text-gray-900">Taller Movil</h1>
                 </div>
@@ -194,7 +195,7 @@
 <!-- Call to Action Section End -->
 
 <!-- Why Choose Section Start -->
-<div class="py-20 section ">
+<div class="py-20 section">
     <div class="container">
 
         <!-- Why Choose Wrapper Start -->
@@ -212,7 +213,7 @@
 
                         <p>Contamos con un Sistema Integrado de Gestión de la Calidad certificado por las normas ISO.</p>
 
-                        <img src="assets/images/choose/choose.png" alt="Choose">
+                        <img class="hidden md:block" src="assets/images/choose/choose.png" alt="Choose">
                     </div>
                     <!-- Why Choose Content End -->
                 </div>
@@ -349,7 +350,7 @@
     <div class="container">
 
         <!-- Section Title Start -->
-        <div class="text-center section-title">
+        <div class="mb-10 text-center section-title">
             <h5 class="sub-title">Clientes</h5>
             <h2 class="main-title">Principales clientes</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet necessitatibus est officia <br> natus molestiae nulla fugit! </p>

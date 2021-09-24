@@ -66,7 +66,8 @@
 
 /*-- Google Font --*/
 
-@font-face {
+
+/* @font-face {
     font-family: 'poppins';
     src: url('./../fonts/poppins/poppins-bold-webfont.woff2') format('woff2'), url('./../fonts/poppins/poppins-bold-webfont.woff') format('woff');
     font-weight: bold;
@@ -78,7 +79,7 @@
     src: url('./../fonts/poppins/poppins-medium-webfont.woff2') format('woff2'), url('./../fonts/poppins/poppins-medium-webfont.woff') format('woff');
     font-weight: medium;
     font-style: medium;
-}
+} */
 
 @font-face {
     font-family: 'poppins';
@@ -87,12 +88,13 @@
     font-style: normal;
 }
 
-@font-face {
+
+/* @font-face {
     font-family: 'poppins';
     src: url('./../fonts/poppins/poppins-semibold-webfont.woff2') format('woff2'), url('./../fonts/poppins/poppins-semibold-webfont.woff') format('woff');
     font-weight: semibold;
     font-style: semibold;
-}
+} */
 
 @font-face {
     font-family: 'Big Shoulders Display';
@@ -180,8 +182,8 @@
 
 body {
     font-size: 16px;
-    font-weight: 200;
-    letter-spacing: 1.5px;
+    line-height: 1.6px;
+    font-weight: normal !important;
     font-family: "poppins", sans-serif !important;
     color: #222222;
     outline: none;
@@ -203,7 +205,6 @@ h4,
 h5,
 h6 {
     font-family: 'Big Shoulders Display', sans-serif;
-    color: #333333;
     font-weight: 700;
     margin-top: 0;
     line-height: 1.5;
@@ -357,7 +358,7 @@ textarea:-ms-input-placeholder {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    background-color: #19191C;
     opacity: 0;
     visibility: hidden;
     z-index: 99;
@@ -458,8 +459,8 @@ textarea:-ms-input-placeholder {
     font-size: 18px;
     font-family: "poppins", sans-serif;
     letter-spacing: 2px;
-    font-weight: 400;
-    position: relative;
+    /* /* font-weight: 400; */
+    */ position: relative;
     padding-left: 15px;
     display: inline-block;
 }
@@ -476,7 +477,7 @@ textarea:-ms-input-placeholder {
 }
 
 .section-title .sub-title::before {
-    position: absolute;
+    /* position: absolute; */
     content: '';
     width: 2px;
     height: 15px;
@@ -577,7 +578,7 @@ label {
     display: block;
     line-height: 1;
     margin-bottom: 10px;
-    font-weight: 400;
+    /* font-weight: 400; */
     text-transform: capitalize;
     font-size: 14px;
 }
@@ -599,7 +600,7 @@ textarea {
     width: 100%;
     height: 50px;
     font-size: 14px;
-    font-weight: 400;
+    /* font-weight: 400; */
     -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1201,8 +1202,8 @@ select {
 }
 
 .btn-codepen {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #19191C;
+    border-color: #19191C;
     color: #ffffff;
 }
 
@@ -1553,8 +1554,8 @@ select {
 }
 
 .btn-500px {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #19191C;
+    border-color: #19191C;
     color: #ffffff;
 }
 
@@ -2239,13 +2240,13 @@ only screen and (max-width: 767px) {
 .product-quickview-content .product-categories-tags ul li+li::before {
     content: '//';
     margin: 0 4px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 18px;
     color: #222222;
 }
 
 .product-quickview-content .product-categories-tags ul li a {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 18px;
     display: block;
     color: #222222;
@@ -2857,11 +2858,11 @@ only screen and (max-width: 767px) {
     line-height: 20px;
     color: #909296;
     display: block;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .single-cart-item .cart-item-content .attributes-content span strong {
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .single-cart-item .cart-item-content .cart-remove {
@@ -3254,7 +3255,7 @@ only screen and (max-width: 767px) {
     color: #F5F5F5;
     font-size: 18px;
     letter-spacing: 2px;
-    font-weight: 400;
+    /* font-weight: 400; */
     position: relative;
     padding-left: 15px;
     font-family: "poppins", sans-serif;
@@ -3268,7 +3269,7 @@ only screen and (max-width: 767px) {
 }
 
 .slider-content .sub-title::before {
-    position: absolute;
+    /* position: absolute; */
     content: '';
     width: 2px;
     height: 15px;
@@ -3302,7 +3303,7 @@ only screen and (max-width: 767px) {
 
 .slider-content p {
     font-size: 18px;
-    font-weight: 400;
+    /* font-weight: 400; */
     margin-top: 20px;
     max-width: 510px;
 }
@@ -3395,7 +3396,6 @@ only screen and (min-width: 1200px) and (max-width: 1499px) {
 }
 
 .about-content {
-    max-width: 450px;
     margin-left: auto;
     margin-top: 50px;
 }
@@ -3486,7 +3486,7 @@ only screen and (max-width: 767px) {
 .about-count .single-count p {
     font-size: 24px;
     font-family: 'Big Shoulders Display', sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #EA110C;
     line-height: 1;
     white-space: nowrap;
@@ -5057,7 +5057,7 @@ only screen and (max-width: 767px) {
     border-bottom: 0;
     color: #ffffff;
     padding-top: 15px;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .project-information .table tr th {
@@ -5787,13 +5787,13 @@ only screen and (max-width: 767px) {
 .product-details-content .product-categories-tags ul li+li::before {
     content: '//';
     margin: 0 4px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 18px;
     color: #222222;
 }
 
 .product-details-content .product-categories-tags ul li a {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 18px;
     display: block;
     color: #222222;
@@ -5879,7 +5879,7 @@ only screen and (max-width: 767px) {
 .product-details-tabs .tab-content .information .table tr td {
     padding: 5px 10px;
     font-size: 16px;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #222222;
 }
 
@@ -6947,7 +6947,7 @@ only screen and (max-width: 767px) {
 }
 
 .cart-table .table tbody tr td.Product-info .product-prices .discount-percentage {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 26px;
     color: #ffffff;
@@ -7117,14 +7117,14 @@ only screen and (max-width: 767px) {
 .cart-totals .cart-total-table .value {
     font-size: 14px;
     font: 400px;
-    color: #000000;
+    color: #19191C;
     text-transform: capitalize;
 }
 
 .cart-totals .cart-total-table .price {
     font-size: 14px;
     font: 400px;
-    color: #000000;
+    color: #19191C;
 }
 
 .empty-cart .empty-cart-title {
@@ -7234,7 +7234,7 @@ only screen and (max-width: 767px) {
     font-family: FontAwesome;
     display: inline-block;
     color: #dbdbdb;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 1;
     vertical-align: middle;
     letter-spacing: 3px;
@@ -7255,7 +7255,7 @@ only screen and (max-width: 767px) {
     font-family: FontAwesome;
     display: inline-block;
     color: #ffc600;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 1;
     vertical-align: middle;
     letter-spacing: 3px;
@@ -7268,7 +7268,7 @@ only screen and (max-width: 767px) {
 .compare-product .pack-product-container .desc-box .product-prices .old-price {
     font-size: 14px;
     color: #222222;
-    font-weight: 400;
+    /* font-weight: 400; */
     text-decoration: line-through;
     margin-right: 5px;
 }
@@ -7294,7 +7294,7 @@ only screen and (max-width: 767px) {
 }
 
 .compare-product .pack-product-container .desc-box .product-prices .discount-percentage {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 11px;
     line-height: 20px;
     color: white;
@@ -7394,13 +7394,13 @@ only screen and (max-width: 767px) {
     list-style: none outside !important;
     width: auto;
     word-wrap: break-word;
-    color: #000000;
+    color: #19191C;
     font-size: 14px;
 }
 
 .checkout-info .info-header strong {
     font-weight: 700;
-    color: #000000;
+    color: #19191C;
 }
 
 .checkout-info .info-header i {
@@ -7410,7 +7410,7 @@ only screen and (max-width: 767px) {
 }
 
 .checkout-info .info-header a {
-    color: #000000;
+    color: #19191C;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -7447,7 +7447,7 @@ only screen and (max-width: 767px) {
 }
 
 .checkout-info .card-body .forget a {
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #222222;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -7541,9 +7541,9 @@ only screen and (max-width: 767px) {
     padding: 10px 0;
     border-top: 0;
     border-bottom: 1px solid #e1e1e1;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
-    color: #000000;
+    color: #19191C;
     vertical-align: middle;
 }
 
@@ -7558,9 +7558,9 @@ only screen and (max-width: 767px) {
 }
 
 .checkout-order .table tbody tr td p {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
-    color: #000000;
+    color: #19191C;
 }
 
 .checkout-order .table tbody tr td.Product-price {
@@ -7581,9 +7581,9 @@ only screen and (max-width: 767px) {
 }
 
 .checkout-order .table tfoot tr td p {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
-    color: #000000;
+    color: #19191C;
 }
 
 .checkout-order .table tfoot tr td.Product-price {
@@ -7634,7 +7634,7 @@ only screen and (max-width: 767px) {
 }
 
 .checkout-payment .single-payment .payment-radio label a {
-    color: #000000;
+    color: #19191C;
     text-decoration: underline;
     text-transform: capitalize;
 }
@@ -7695,7 +7695,7 @@ only screen and (max-width: 767px) {
 .my-account-tab .account-title {
     font-size: 28px;
     font-weight: 600;
-    color: #000000;
+    color: #19191C;
 }
 
 .account-wrapper {
@@ -7712,8 +7712,8 @@ only screen and (max-width: 767px) {
     border: 1px solid #ECECEC;
     border-bottom-color: #ECECEC !important;
     font-size: 14px;
-    font-weight: 400;
-    color: #000000;
+    /* font-weight: 400; */
+    color: #19191C;
     padding: 8px 15px;
 }
 
@@ -7727,8 +7727,8 @@ only screen and (max-width: 767px) {
 
 .account-table .table tbody tr td {
     font-size: 14px;
-    color: #000000;
-    font-weight: 400;
+    color: #19191C;
+    /* font-weight: 400; */
     vertical-align: middle;
     border: 1px solid #ECECEC;
     padding: 0;
@@ -7739,7 +7739,7 @@ only screen and (max-width: 767px) {
     padding: 0 15px;
     height: 45px;
     line-height: 45px;
-    color: #000000;
+    color: #19191C;
 }
 
 .my-account-dashboard .welcome-dashboard {
@@ -7755,7 +7755,7 @@ only screen and (max-width: 767px) {
 }
 
 .my-account-dashboard .welcome-dashboard p a {
-    color: #000000;
+    color: #19191C;
     -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -7773,7 +7773,7 @@ only screen and (max-width: 767px) {
 
 .my-account-address .account-address .name {
     font-size: 16px;
-    color: #000000;
+    color: #19191C;
     font-weight: 500;
 }
 
@@ -7790,7 +7790,7 @@ only screen and (max-width: 767px) {
 .my-account-details .account-details .title {
     font-size: 20px;
     font-weight: 500;
-    color: #000000;
+    color: #19191C;
 }
 
 .my-account-details .account-details .single-form {
@@ -7987,7 +7987,7 @@ only screen and (max-width: 575px) {
     background-color: #e4f3ff;
     border-radius: 10px;
     font-size: 14px;
-    font-weight: 400;
+    /* font-weight: 400; */
     padding: 0 25px;
 }
 
@@ -8066,7 +8066,7 @@ only screen and (max-width: 575px) {
 
 .widget-sidebar-02 .widget-price .price span {
     font-size: 14px;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #696969;
 }
 
@@ -8182,7 +8182,7 @@ only screen and (max-width: 575px) {
 }
 
 .footer-widget p span {
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .footer-widget .title {
