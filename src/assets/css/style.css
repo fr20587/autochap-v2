@@ -181,8 +181,9 @@
 body {
     font-size: 16px;
     line-height: 1.67;
-    font-weight: 400;
-    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    font-family: "poppins", sans-serif !important;
     color: #222222;
     outline: none;
     visibility: visible;
@@ -3980,7 +3981,8 @@ only screen and (max-width: 767px) {
 
 .testimonials-title {
     width: 43.5%;
-    background-color: #cee3f3;
+    background-color: #EA110C;
+    color: #ffffff;
     padding: 60px;
 }
 

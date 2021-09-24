@@ -119,7 +119,10 @@ const config = {
             '10xl': '8rem'
         },
         screens: {
-            print: { 'raw': 'print' },
+            print: {
+                'raw': 'print'
+            },
+            xs: '480px',
             sm: '600px',
             md: '960px',
             lg: '1280px',
@@ -132,10 +135,10 @@ const config = {
             flex: {
                 '0': '0 0 auto'
             },
-            fontFamily: {
-                sans: `"Inter var", ${defaultTheme.fontFamily.sans.join(',')}`,
-                mono: `"IBM Plex Mono", ${defaultTheme.fontFamily.mono.join(',')}`
-            },
+            // fontFamily: {
+            //     sans: `"Inter var", ${defaultTheme.fontFamily.sans.join(',')}`,
+            //     mono: `"IBM Plex Mono", ${defaultTheme.fontFamily.mono.join(',')}`
+            // },
             opacity: {
                 12: '0.12',
                 38: '0.38',
@@ -441,10 +444,14 @@ const config = {
         require(path.resolve(__dirname, ('src/@ath/tailwind/plugins/extract-config'))),
         require(path.resolve(__dirname, ('src/@ath/tailwind/plugins/utilities'))),
         require(path.resolve(__dirname, ('src/@ath/tailwind/plugins/icon-size'))),
-        require(path.resolve(__dirname, ('src/@ath/tailwind/plugins/theming')))({ themes }),
+        require(path.resolve(__dirname, ('src/@ath/tailwind/plugins/theming')))({
+            themes
+        }),
 
         // Other third party and/or custom plugins
-        require('@tailwindcss/typography')({ modifiers: ['sm', 'lg'] }),
+        require('@tailwindcss/typography')({
+            modifiers: ['sm', 'lg']
+        }),
         require('@tailwindcss/aspect-ratio'),
         require('@tailwindcss/line-clamp')
     ]

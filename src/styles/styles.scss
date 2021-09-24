@@ -10,3 +10,9 @@
 }
 
 @import '~swiper/swiper-bundle';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+.owl-item {
+    @apply flex items-center justify-center mr-0 rounded-md bg-gray-50;
+    height: 200px !important;
+}

@@ -1,11 +1,12 @@
 // Angular modules
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 // Third's Modules
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { SWIPER_CONFIG } from 'ngx-swiper-wrapper';
 import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     direction: 'horizontal',
@@ -41,6 +42,7 @@ import { homeRoutes } from './home.routing';
         HomeComponent
     ],
     imports: [
+        CarouselModule,
         RouterModule.forChild(homeRoutes),
         SwiperModule,
     ],
@@ -49,7 +51,9 @@ import { homeRoutes } from './home.routing';
             provide: SWIPER_CONFIG,
             useValue: DEFAULT_SWIPER_CONFIG
         }
-    ]
+    ],
+    schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+
 })
 export class HomeModule {
 }
