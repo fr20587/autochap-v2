@@ -23,7 +23,7 @@ export class ContactComponent implements OnInit {
 
     public contactForm!: FormGroup;
     public mapOptions: google.maps.MapOptions = {
-        center: { lat: 23.010238, lng: -82.414232 },
+        center: { lat: 23.112161, lng: -82.418462 },
         zoom: 13.5,
         disableDefaultUI: true,
         zoomControl: false,
@@ -32,7 +32,7 @@ export class ContactComponent implements OnInit {
         fullscreenControl: false
     };
     public marker = {
-        position: { lat: 23.010238, lng: -82.414232 },
+        position: { lat: 23.112161, lng: -82.418462 },
     };
 
     /**

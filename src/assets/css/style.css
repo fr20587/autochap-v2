@@ -3590,7 +3590,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     position: relative;
     overflow: hidden;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .single-service::before {
