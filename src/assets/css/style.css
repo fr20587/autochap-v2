@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------------------------------
+    /*-----------------------------------------------------------------------------------
 
     Template Name: Carserv - Auto Servicing & Repair bootstrap 5 Template
     Author: codecarnival
@@ -459,8 +459,8 @@ textarea:-ms-input-placeholder {
     font-size: 18px;
     font-family: "poppins", sans-serif;
     letter-spacing: 2px;
-    /* /* font-weight: 400; */
-    */ position: relative;
+    font-weight: 400;
+    position: relative;
     padding-left: 15px;
     display: inline-block;
 }
@@ -8430,4 +8430,3 @@ only screen and (max-width: 767px) {
 .back-to-top:hover {
     color: #ffffff;
     background-color: #ee0f39;
-}
